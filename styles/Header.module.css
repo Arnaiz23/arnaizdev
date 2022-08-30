@@ -42,3 +42,9 @@
   color: #000 !important;
   text-align: center;
 }
+
+@media screen and (max-width: 760px) {
+  .nav {
+    flex-direction: column;
+  }
+}

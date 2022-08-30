@@ -8,14 +8,14 @@ import ActiveLink from "../components/ActiveLink"
 
 export default function Header() {
   return (
-    <nav className={styles.nav}>
+    <header className={styles.nav}>
       <div className={styles.brand}>
         <Image src={brand} width="80" height="80" />
         <Link href="/">
           <h1>Arnaizdev</h1>
         </Link>
       </div>
-      <div>
+      <nav>
         <ul className={styles.navOptions}>
           <ActiveLink href="/" name="Inicio" />
           <ActiveLink href="/about" name="Sobre mi" />
@@ -26,7 +26,7 @@ export default function Header() {
             style={styles.navContact}
           />
         </ul>
-      </div>
-    </nav>
+      </nav>
+    </header>
   )
 }

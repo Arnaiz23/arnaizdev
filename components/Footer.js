@@ -10,7 +10,7 @@ export default function Footer() {
           font-size: 14px;
           width: 100%;
           text-align: center;
-          padding: 10px;
+          padding: 20px;
         }
       `}</style>
     </>
