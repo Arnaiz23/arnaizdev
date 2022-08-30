@@ -1,0 +1,40 @@
+.nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  font-size: 18px;
+}
+
+.brand {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.navOptions {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+  gap: 30px;
+  font-weight: bold;
+}
+
+.navOptions > a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.navOptions li {
+  cursor: pointer;
+}
+
+.navContact {
+  background-color: var(--primary-green);
+  padding: 5px;
+  border-radius: 5px;
+  color: #000 !important;
+  text-align: center;
+}

@@ -1,3 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-green: #5dc1b9;
+  --secondary-green: #8ae0db;
+}
+
 body {
   background-color: #3e4144;
+  color: #fff;
+  font-family: "Inter", sans-serif;
 }
