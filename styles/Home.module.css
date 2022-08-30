@@ -1,3 +1,69 @@
-.title {
-  color: #fff;
+/* HEADER HOME */
+.containerHeaderHome {
+  display: flex;
+  width: 80%;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.headerHomeLeft {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 10px;
+}
+
+.javascript {
+  color: var(--yellow);
+  margin: 0 5px;
+  font-size: 22px;
+}
+
+.nameBrandTitle {
+  color: var(--secondary-green);
+  font-size: 46px;
+}
+
+.headerHomeLeft > h3 {
+  font-size: 26px;
+}
+
+.headerHomeLeft > p {
+  color: #ccc;
+  font-size: 18px;
+}
+
+.headerHomeRight {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  background-color: #ddd;
+}
+
+/* OPTIONS CARDS */
+
+.homeCard {
+  width: 50%;
+  max-width: 460px;
+  min-height: 183px;
+  border-radius: 10px;
+  background-color: #626262;
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.containerHomeCards {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 80%;
+  margin: 60px auto;
+  gap: 20px;
 }

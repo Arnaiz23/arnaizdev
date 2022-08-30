@@ -1,7 +1,8 @@
 import React from "react"
-import styles from "./Header.module.css"
+import styles from "../styles/Header.module.css"
 import brand from "../public/images/BrandTransparent.png"
 import Image from "next/image"
+import Link from "next/link"
 
 import ActiveLink from "../components/ActiveLink"
 
@@ -10,7 +11,9 @@ export default function Header() {
     <nav className={styles.nav}>
       <div className={styles.brand}>
         <Image src={brand} width="80" height="80" />
-        <h1>Arnaizdev</h1>
+        <Link href="/">
+          <h1>Arnaizdev</h1>
+        </Link>
       </div>
       <div>
         <ul className={styles.navOptions}>
