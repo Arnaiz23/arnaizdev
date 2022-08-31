@@ -14,19 +14,29 @@ export default function TechStack({ title, line }) {
       </header>
       <section className={style.techsImages}>
         <Link href="/technologie/react">
-          <Image src={react} width="80" height="80" />
+          <figure>
+            <Image src={react} width="80" height="80" />
+          </figure>
         </Link>
         <Link href="/technologie/react">
-          <Image src={react} width="80" height="80" />
+          <figure>
+            <Image src={react} width="80" height="80" />
+          </figure>
         </Link>
         <Link href="/technologie/react">
-          <Image src={react} width="80" height="80" />
+          <figure>
+            <Image src={react} width="80" height="80" />
+          </figure>
         </Link>
         <Link href="/technologie/react">
-          <Image src={react} width="80" height="80" />
+          <figure>
+            <Image src={react} width="80" height="80" />
+          </figure>
         </Link>
         <Link href="/technologie/react">
-          <Image src={react} width="80" height="80" />
+          <figure>
+            <Image src={react} width="80" height="80" />
+          </figure>
         </Link>
       </section>
     </div>
