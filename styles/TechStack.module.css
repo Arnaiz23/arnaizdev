@@ -32,3 +32,13 @@
 .techsImages > span {
   cursor: pointer;
 }
+
+.iconTech {
+  width: 80px;
+  transition: color 0.3s;
+  cursor: pointer;
+}
+
+.iconTech:hover {
+  color: var(--color-react);
+}
