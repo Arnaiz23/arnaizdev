@@ -1,0 +1,17 @@
+.projectImage {
+  border-radius: 20px;
+}
+
+.projectContainer {
+  width: 300px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 10px;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.projectContainer > p {
+  text-align: center;
+}

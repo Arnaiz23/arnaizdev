@@ -7,9 +7,14 @@ export default function Projects() {
   return (
     <>
       <Header />
-      <main>
+      <main className={styles.containerMain}>
         <h2>Proyectos</h2>
         <section className={styles.containerProjects}>
+          <ProjectCard />
+          <ProjectCard />
+          <ProjectCard />
+          <ProjectCard />
+          <ProjectCard />
           <ProjectCard />
         </section>
       </main>

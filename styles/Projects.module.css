@@ -1,3 +1,18 @@
 .containerProjects {
   display: grid;
+  width: 80%;
+  margin: 40px auto;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  place-items: center;
+}
+
+.containerMain {
+  min-height: 780px;
+}
+
+.containerMain > h2 {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 28px;
 }
