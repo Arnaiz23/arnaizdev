@@ -1,0 +1,16 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.header > i {
+  width: 60px;
+  color: var(--color-react);
+}
+
+.header > h2 {
+  text-transform: capitalize;
+  font-size: 30px;
+}
