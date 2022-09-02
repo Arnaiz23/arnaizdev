@@ -6,7 +6,7 @@ import tumanga from "../public/images/TuManga.png"
 
 export default function ProjectCard() {
   return (
-    <Link href="/projects/tumanga">
+    <Link href="/projects/TuManga">
       <section className={style.projectContainer}>
         <picture>
           <Image src={tumanga} alt="TuManga" className={style.projectImage} />

@@ -1,0 +1,78 @@
+.mainContainer {
+  margin: 40px auto;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 40px;
+}
+
+.headerContainer {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.dateProject {
+  background-color: #777;
+  padding: 5px 10px;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.paragraph {
+  line-height: 1.3;
+}
+
+.containerDataProject {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  justify-content: space-evenly;
+}
+
+.containerRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px 40px;
+  width: 500px;
+}
+
+.link {
+  color: var(--secondary-green);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.projectLanguages {
+  display: flex;
+  gap: 10px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.tagLanguage {
+  padding: 5px 10px;
+  background-color: var(--color-mongo);
+  border-radius: 10px;
+}
+
+.pictureProject {
+  border-radius: 10px;
+  max-width: 100px;
+}
+
+@media screen and (max-width: 620px) {
+  .containerRow {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+}
