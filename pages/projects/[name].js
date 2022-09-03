@@ -14,7 +14,7 @@ export default function PageProject() {
   return (
     <>
       <Header />
-      <main className={style.mainContainer}>
+      <section className={style.mainContainer}>
         <header className={style.headerContainer}>
           <h2>{name}</h2>
           <h3 className={style.dateProject}>2022</h3>
@@ -31,7 +31,8 @@ export default function PageProject() {
             <a
               href="http://tumanga.arnaizdev.com/"
               target="_blank"
-              className={style.link} rel="noreferrer"
+              className={style.link}
+              rel="noreferrer"
             >
               https://tumanga.arnaizdev.com/
             </a>
@@ -49,7 +50,8 @@ export default function PageProject() {
             <a
               href="https://github.com/Arnaiz23/TuManga"
               target="_blank"
-              className={style.link} rel="noreferrer"
+              className={style.link}
+              rel="noreferrer"
             >
               http://github.com/Arnaiz23/TuManga
             </a>
@@ -62,7 +64,7 @@ export default function PageProject() {
             alt="TuManga Home"
           />
         </picture>
-      </main>
+      </section>
       <Footer />
     </>
   )

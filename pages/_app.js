@@ -13,11 +13,9 @@ export default function MyApp({ Component, pageProps }) {
           rel="stylesheet"
         />
       </Head>
-      <div>
-        <main>
-          <Component {...pageProps} />
-        </main>
-      </div>
+      <main>
+        <Component {...pageProps} />
+      </main>
     </>
   )
 }

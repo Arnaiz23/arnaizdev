@@ -15,7 +15,7 @@ export default function Contact() {
         <title>Arnaizdev - Contact</title>
       </Head>
       <Header />
-      <main>
+      <article>
         <h2>Contacto y recursos</h2>
         <section>
           <ContactOption
@@ -35,12 +35,12 @@ export default function Contact() {
             link="https://es.linkedin.com/in/adri%C3%A1n-arnaiz-fern%C3%A1ndez-b67743227/en?trk=people-guest_people_search-card"
           />
         </section>
-      </main>
+      </article>
       <style jsx>{`
-        main {
+        article {
           width: 100%;
         }
-        main h2 {
+        article h2 {
           text-align: center;
           margin: 40px;
           font-size: 30px;

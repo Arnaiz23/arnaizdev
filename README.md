@@ -8,10 +8,13 @@
 ## Check
 
 - Check the semantic HTML in Dev and use this Tags. Is better
+- Go through all the pages in case I have repeated the main one
+- About me - Bio css flex - Min-height
 
 ## Responsive
 
-Check the responsive nav in the Home
+- Check the responsive nav in the Home
+- Check all pages
 
 ## Steps
 

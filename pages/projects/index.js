@@ -7,7 +7,7 @@ export default function Projects() {
   return (
     <>
       <Header />
-      <main className={styles.containerMain}>
+      <section className={styles.containerMain}>
         <h2>Proyectos</h2>
         <section className={styles.containerProjects}>
           <ProjectCard />
@@ -17,7 +17,7 @@ export default function Projects() {
           <ProjectCard />
           <ProjectCard />
         </section>
-      </main>
+      </section>
       <Footer />
     </>
   )
