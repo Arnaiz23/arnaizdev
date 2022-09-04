@@ -12,6 +12,7 @@ export default function MyApp({ Component, pageProps }) {
           href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;700&display=swap"
           rel="stylesheet"
         />
+        <meta name="author" content="Adrián Arnaiz Fernández" />
       </Head>
       <main>
         <Component {...pageProps} />

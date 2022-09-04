@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Head from "next/head"
 
 import style from "../../styles/About.module.css"
 
@@ -10,6 +11,9 @@ import arnaiz from "../../public/images/arnaiz.jpg"
 export default function AboutMe() {
   return (
     <>
+      <Head>
+        <title>Arnaizdev - About</title>
+      </Head>
       <Header />
       <section className={style.center}>
         <header className={style.header}>

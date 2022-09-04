@@ -1,5 +1,5 @@
 import { useRouter } from "next/router"
-import Image from "next/image"
+import Head from "next/head"
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faReact } from "@fortawesome/free-brands-svg-icons"
@@ -7,8 +7,7 @@ import { faReact } from "@fortawesome/free-brands-svg-icons"
 import style from "../../styles/OneTechnologie.module.css"
 import Footer from "../../components/Footer"
 import Header from "../../components/Header"
-
-import midu from "../../public/images/midu.jpg"
+import Course from "../../components/course"
 
 export default function OneTechnologie() {
   const router = useRouter()
@@ -16,6 +15,9 @@ export default function OneTechnologie() {
 
   return (
     <>
+      <Head>
+        <title>Arnaizdev - {name}</title>
+      </Head>
       <Header />
       <section className={style.main}>
         <header className={style.header}>
@@ -34,11 +36,16 @@ export default function OneTechnologie() {
           <ul>
             <a
               href="https://github.com/Arnaiz23/contacts-app-nodejs"
-              target="_blank" rel="noreferrer"
+              target="_blank"
+              rel="noreferrer"
             >
               <li>contacts-app-nodejs</li>
             </a>
-            <a href="https://github.com/Arnaiz23/TuManga" target="_blank" rel="noreferrer">
+            <a
+              href="https://github.com/Arnaiz23/TuManga"
+              target="_blank"
+              rel="noreferrer"
+            >
               <li>TuManga</li>
             </a>
           </ul>
@@ -48,27 +55,9 @@ export default function OneTechnologie() {
             <h3>Cursos</h3>
           </header>
           <div className={style.coursesGrid}>
-            <section className={style.courseCard}>
-              <Image src={midu} alt="Curso" className={style.image} />
-              <h4>Master en Frameworks JavaScript...</h4>
-              <p>
-                En este curso aprendí React desde cero. Se usan las clases de
-                React.
-              </p>
-            </section>
-            <section className={style.courseCard}>
-              <a
-                href="https://www.youtube.com/watch?v=T_j60n1zgu0"
-                target="_blank" rel="noreferrer"
-              >
-                <Image src={midu} alt="Curso" className={style.image} />
-                <h4>Master en Frameworks JavaScript...</h4>
-                <p>
-                  En este curso aprendí React desde cero. Se usan las clases de
-                  React.
-                </p>
-              </a>
-            </section>
+            <Course />
+            <Course />
+            <Course />
           </div>
         </section>
       </section>

@@ -13,7 +13,7 @@ export default function TechStack({ title, line }) {
         <div className={line}></div>
       </header>
       <section className={style.techsImages}>
-        <Link href="/technologie/react">
+        <Link href="/technologie/React">
           <i className={style.iconTech}>
             <FontAwesomeIcon icon={faReact} />
           </i>

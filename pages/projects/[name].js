@@ -1,5 +1,6 @@
 import { useRouter } from "next/router"
 import Image from "next/image"
+import Head from "next/head"
 
 import Footer from "../../components/Footer"
 import Header from "../../components/Header"
@@ -13,6 +14,9 @@ export default function PageProject() {
 
   return (
     <>
+      <Head>
+        <title>Arnaizdev - {name}</title>
+      </Head>
       <Header />
       <section className={style.mainContainer}>
         <header className={style.headerContainer}>
