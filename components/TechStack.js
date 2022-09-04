@@ -14,7 +14,7 @@ export default function TechStack({ title, line }) {
       </header>
       <section className={style.techsImages}>
         <Link href="/technologie/React">
-          <i className={style.iconTech}>
+          <i className={style.iconTech} title="React">
             <FontAwesomeIcon icon={faReact} />
           </i>
         </Link>
