@@ -2,10 +2,9 @@ import React from "react"
 import Link from "next/link"
 
 import style from "../styles/TechStack.module.css"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faReact } from "@fortawesome/free-brands-svg-icons"
 
-export default function TechStack({ title, line }) {
+export default function TechStack({ title, line, elements }) {
+  console.log(elements)
   return (
     <div className={style.containerHomeStacks}>
       <header>
@@ -13,36 +12,15 @@ export default function TechStack({ title, line }) {
         <div className={line}></div>
       </header>
       <section className={style.techsImages}>
-        <Link href="/technologie/React">
-          <i className={style.iconTech} title="React">
-            <FontAwesomeIcon icon={faReact} />
-          </i>
-        </Link>
-        <Link href="/technologie/react">
-          <i className={style.iconTech}>
-            <FontAwesomeIcon icon={faReact} />
-          </i>
-        </Link>{" "}
-        <Link href="/technologie/react">
-          <i className={style.iconTech}>
-            <FontAwesomeIcon icon={faReact} />
-          </i>
-        </Link>{" "}
-        <Link href="/technologie/react">
-          <i className={style.iconTech}>
-            <FontAwesomeIcon icon={faReact} />
-          </i>
-        </Link>{" "}
-        <Link href="/technologie/react">
-          <i className={style.iconTech}>
-            <FontAwesomeIcon icon={faReact} />
-          </i>
-        </Link>{" "}
-        <Link href="/technologie/react">
-          <i className={style.iconTech}>
-            <FontAwesomeIcon icon={faReact} />
-          </i>
-        </Link>
+        {elements.length <= 0 ? (
+          <h4>No hay tecnologías</h4>
+        ) : (
+          elements.map((element) => (
+            <Link href={`/technologie/${element.name}`} key={element.name}>
+              <i className={style.iconTech} title={element.name}></i>
+            </Link>
+          ))
+        )}
       </section>
     </div>
   )
