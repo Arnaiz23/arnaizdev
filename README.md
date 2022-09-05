@@ -24,3 +24,4 @@
 - Complete the technologies.json
 - Check the technologie page CSS
 - Complete the about me data
+- Images courses

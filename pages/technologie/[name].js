@@ -25,13 +25,12 @@ export default function OneTechnologie({
           <h2>{name}</h2>
         </header>
         <p>{description}</p>
-        <section className={style.projects}>
-          <header>
-            <h3>Proyectos</h3>
-          </header>
-          {projects.length <= 0 ? (
-            <h4>No hay proyectos con este lenguaje</h4>
-          ) : (
+        {projects.length > 0 && (
+          <section className={style.projects}>
+            <header>
+              <h3>Proyectos</h3>
+            </header>
+
             <ul>
               {projects.map((project) => (
                 <a
@@ -44,8 +43,8 @@ export default function OneTechnologie({
                 </a>
               ))}
             </ul>
-          )}
-        </section>
+          </section>
+        )}
         <section className={style.courses}>
           <header>
             <h3>Cursos</h3>
