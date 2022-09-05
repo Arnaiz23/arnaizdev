@@ -21,6 +21,6 @@
 
 ## Missing
 
-- Technologies icons
 - Complete the technologies.json
-- Loader
+- Check the technologie page CSS
+- Complete the about me data

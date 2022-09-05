@@ -1,7 +1,7 @@
 [
   {
     "name": "HTML",
-    "icon": "html",
+    "icon": "/images/html.svg",
     "description":
       "Es el primer lenguaje que aprendi. La primera vez que lo toque fue en segundo de Grado Medio. Gracias a conocer HTML, CSS y JS decidi ir por la rama de la programación web",
     "projects": [
@@ -22,7 +22,7 @@
   },
   {
     "name": "CSS",
-    "icon": "faCss3",
+    "icon": "/images/css.svg",
     "description": "Al igual que HTML, es el primer lenguaje que aprendi",
     "projects": [
       {
@@ -42,7 +42,7 @@
   },
   {
     "name": "JavaScript",
-    "icon": "js",
+    "icon": "/images/js.svg",
     "description":
       "Primer lenguaje de lógica que aprendi. Actualmente es el lenguaje que más utilizo y más me gusta.",
     "projects": [
@@ -75,7 +75,7 @@
   },
   {
     "name": "React",
-    "icon": "faReact",
+    "icon": "/images/react.svg",
     "description":
       "Segundo 'Framework' de JavaScript aprendido. Actualmente es el que más uso para realizar mis frontends.",
     "projects": [
@@ -108,7 +108,7 @@
   },
   {
     "name": "NextJS",
-    "icon": "next",
+    "icon": "/images/nextjs.svg",
     "description":
       "Framework que utiliza React. Con este framework he creado dicho Portfolio.",
     "projects": [
@@ -133,7 +133,7 @@
   },
   {
     "name": "Git",
-    "icon": "faGit-alt",
+    "icon": "/images/git.svg",
     "description":
       "Control de versiones necesario para poder trabajar facilmente con los proyectos",
     "projects": [],
@@ -155,7 +155,41 @@
   },
   {
     "name": "Docker",
-    "icon": "faDocker",
+    "icon": "/images/docker.svg",
+    "description":
+      "Software basado en contenedores para poder crear proyectos más facilmente. Lo he usado varias veces para utilizar los proyectos a nivel más realista. Tambien lo uso bastante para hacer pruebas para las terminales y algun contenedor suelto.",
+    "projects": [
+      {
+        "name": "",
+        "url": ""
+      }
+    ],
+    "courses": [
+      {
+        "name": "Aprendiendo Docker | Capítulo 1: Bases, conceptos y cliente de Docker",
+        "description": "Curso sobre iniciacion en Docker por ManzDev",
+        "url": "https://www.youtube.com/watch?v=mEYHQgZ7iZU",
+        "image": ""
+      },
+      {
+        "name": "Aprende Docker ahora| curso completo gratis desde cero!",
+        "description": "Curso para aprender docker de HolaMundo",
+        "url": "https://www.youtube.com/watch?v=4Dko5W96WHg&t=2033s",
+        "image": ""
+      },
+      {
+        "name": "Docker & Nodejs. Aplicación de NodeJS en Docker Container",
+        "description":
+          "Curso para aprender a utilizar una aplicación desarrollada con nodejs en Docker",
+        "url": "https://www.youtube.com/watch?v=iLlmm0L-VpQ&t=1332s",
+        "image": ""
+      }
+    ],
+    "stack": "other"
+  },
+{
+    "name": "Terminal",
+    "icon": "/images/terminal.svg",
     "description":
       "Software basado en contenedores para poder crear proyectos más facilmente. Lo he usado varias veces para utilizar los proyectos a nivel más realista. Tambien lo uso bastante para hacer pruebas para las terminales y algun contenedor suelto.",
     "projects": [

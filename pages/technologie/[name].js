@@ -1,4 +1,5 @@
 import Head from "next/head"
+import Image from "next/image"
 
 import style from "../../styles/OneTechnologie.module.css"
 import Footer from "../../components/Footer"
@@ -20,7 +21,7 @@ export default function OneTechnologie({
       <Header />
       <section className={style.main}>
         <header className={style.header}>
-          {icon}
+          <Image src={icon} width={100} height={100} />
           <h2>{name}</h2>
         </header>
         <p>{description}</p>

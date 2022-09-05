@@ -1,5 +1,6 @@
 import React from "react"
 import Link from "next/link"
+import Image from "next/image"
 
 import style from "../styles/TechStack.module.css"
 
@@ -16,9 +17,9 @@ export default function TechStack({ title, line, elements }) {
         ) : (
           elements.map(({ name, icon }) => (
             <Link href={`/technologie/${name}`} key={name}>
-              <i className={style.iconTech} title={name}>
-                {icon}
-              </i>
+              <picture className={style.iconTech} title={name}>
+                <Image src={icon} width={100} height={100} />
+              </picture>
             </Link>
           ))
         )}
