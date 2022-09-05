@@ -1,8 +1,5 @@
 import Head from "next/head"
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faReact } from "@fortawesome/free-brands-svg-icons"
-
 import style from "../../styles/OneTechnologie.module.css"
 import Footer from "../../components/Footer"
 import Header from "../../components/Header"
@@ -13,6 +10,7 @@ export default function OneTechnologie({
   description,
   projects,
   courses,
+  icon,
 }) {
   return (
     <>
@@ -22,9 +20,7 @@ export default function OneTechnologie({
       <Header />
       <section className={style.main}>
         <header className={style.header}>
-          <i>
-            <FontAwesomeIcon icon={faReact} />
-          </i>
+          {icon}
           <h2>{name}</h2>
         </header>
         <p>{description}</p>

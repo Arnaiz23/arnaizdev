@@ -1,4 +1,4 @@
-import { technologies } from "../../../data/technologies.js"
+import technologies from "../../../data/technologies.json"
 
 export default (req, res) => {
   res.setHeader("Content-type", "application/json")

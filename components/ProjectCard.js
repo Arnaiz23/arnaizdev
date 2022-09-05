@@ -2,17 +2,22 @@ import Link from "next/link"
 import Image from "next/image"
 
 import style from "../styles/ProjectCard.module.css"
-import tumanga from "../public/images/TuManga.png"
 
-export default function ProjectCard() {
+export default function ProjectCard({ project }) {
   return (
-    <Link href="/projects/TuManga">
+    <Link href={`/projects/${project.name}`}>
       <section className={style.projectContainer}>
         <picture>
-          <Image src={tumanga} alt="TuManga" className={style.projectImage} />
+          <Image
+            src={project.image}
+            alt={project.name}
+            width={300}
+            height={170}
+            className={style.projectImage}
+          />
         </picture>
-        <h3>TuManga</h3>
-        <p>Tienda online sobre mangas, novelas ligeras y merchandising.</p>
+        <h3>{project.name}</h3>
+        <p>{project.short_description}</p>
       </section>
     </Link>
   )

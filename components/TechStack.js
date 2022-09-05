@@ -2,7 +2,6 @@ import React from "react"
 import Link from "next/link"
 
 import style from "../styles/TechStack.module.css"
-import { HtmlIcon } from "./Icons/Technologies"
 
 export default function TechStack({ title, line, elements }) {
   return (
@@ -15,10 +14,10 @@ export default function TechStack({ title, line, elements }) {
         {elements.length <= 0 ? (
           <h4>No hay tecnologías</h4>
         ) : (
-          elements.map((element) => (
-            <Link href={`/technologie/${element.name}`} key={element.name}>
-              <i className={style.iconTech} title={element.name}>
-                {HtmlIcon}
+          elements.map(({ name, icon }) => (
+            <Link href={`/technologie/${name}`} key={name}>
+              <i className={style.iconTech} title={name}>
+                {icon}
               </i>
             </Link>
           ))

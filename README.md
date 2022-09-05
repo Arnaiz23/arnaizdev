@@ -18,3 +18,9 @@
 - See the SEO stream
 - Adapt the portfolio with the SEO
 - Publish the portfolio
+
+## Missing
+
+- Technologies icons
+- Complete the technologies.json
+- Loader

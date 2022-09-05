@@ -1,14 +1,16 @@
 [
   {
-    "image": "",
-    "name" : "",
-    "short_description": "",
-    "description": "",
-    "date" : "",
-    "url": "",
+    "image": "/images/TuManga.png",
+    "name" : "TuManga",
+    "short_description": "Tienda online sobre mangas, novelas ligeras y merchandising",
+    "description": "Aplicación web creada para el TFG del Grado Superior de Desarrollo de Aplicaciones Web. La idea era formar una web para una tienda online en la que se vendería mangas, novelas ligeras y merchandising relacionado.",
+    "date" : "2022",
+    "url": "https://tumanga.arnaizdev.com",
     "languages": [
-      ""
+      "React",
+      "NodeJS",
+      "MongoDB"
     ],
-    "repositorie": ""
+    "repositorie": "https://github.com/Arnaiz23/TuManga"
   }
 ]
