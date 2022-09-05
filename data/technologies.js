@@ -8,7 +8,7 @@ export const technologies = [
       "Es el primer lenguaje que aprendi. La primera vez que lo toque fue en segundo de Grado Medio. Gracias a conocer HTML, CSS y JS decidi ir por la rama de la programación web",
     projects: [
       {
-        name: "",
+        name: "Prueba",
         url: "",
       },
     ],
@@ -97,7 +97,7 @@ export const technologies = [
         name: "Curso REACT JS - Aprende desde CERO",
         description: "Primer curso / video con el que aprendo React funcional",
         url: "https://www.youtube.com/watch?v=T_j60n1zgu0&list=PLV8x_i1fqBw0B008sQn79YxCjkHJU84pC",
-        image: "",
+        image: "/images/midu.jpg",
       },
       {
         name: "Aprendiendo JavaScript y React desde cero - Bootcamp FullStack Gratuito",

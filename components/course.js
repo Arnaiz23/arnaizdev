@@ -1,21 +1,22 @@
 import Image from "next/image"
 
-import midu from "../public/images/midu.jpg"
 import style from "../styles/OneTechnologie.module.css"
 
-export default function Course() {
+export default function Course({ course }) {
   return (
     <section className={style.courseCard}>
-      <a
-        href="https://www.youtube.com/watch?v=T_j60n1zgu0"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <Image src={midu} alt="Curso" className={style.image} />
-        <h4>Master en Frameworks JavaScript...</h4>
-        <p>
-          En este curso aprendí React desde cero. Se usan las clases de React.
-        </p>
+      <a href={course.url} target="_blank" rel="noreferrer">
+        <picture>
+          <Image
+            src={course.image}
+            alt={course.name}
+            width={300}
+            height={220}
+            className={style.image}
+          />
+        </picture>
+        <h4>{course.name}</h4>
+        <p>{course.description} </p>
       </a>
     </section>
   )
