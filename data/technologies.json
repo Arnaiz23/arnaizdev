@@ -3,13 +3,8 @@
     "name": "HTML",
     "icon": "/images/html.svg",
     "description":
-      "Es el primer lenguaje que aprendi. La primera vez que lo toque fue en segundo de Grado Medio. Gracias a conocer HTML, CSS y JS decidi ir por la rama de la programación web",
-    "projects": [
-      {
-        "name": "Prueba",
-        "url": ""
-      }
-    ],
+    "Es el primer lenguaje que aprendi. La primera vez que lo toque fue en segundo de Grado Medio. Gracias a conocer HTML, CSS y JS decidi ir por la rama de la programación web",
+    "projects": [],
     "courses": [
       {
         "name": "Curso de HTML5 desde CERO (Completo)",
@@ -24,12 +19,7 @@
     "name": "CSS",
     "icon": "/images/css.svg",
     "description": "Al igual que HTML, es el primer lenguaje que aprendi",
-    "projects": [
-      {
-        "name": "",
-        "url": ""
-      }
-    ],
+    "projects": [],
     "courses": [
       {
         "name": "Curso de CSS desde CERO (Completo)",
@@ -44,11 +34,15 @@
     "name": "JavaScript",
     "icon": "/images/js.svg",
     "description":
-      "Primer lenguaje de lógica que aprendi. Actualmente es el lenguaje que más utilizo y más me gusta.",
+    "Primer lenguaje de lógica que aprendi. Actualmente es el lenguaje que más utilizo y más me gusta.",
     "projects": [
       {
-        "name": "",
-        "url": ""
+        "name": "Music Player",
+        "url": "https://github.com/Arnaiz23/MusicPlayer"
+      },
+      {
+        "name" : "ProyectoCliente",
+        "url" : "https://github.com/Arnaiz23/ProyectoCliente"
       }
     ],
     "courses": [
@@ -77,11 +71,31 @@
     "name": "React",
     "icon": "/images/react.svg",
     "description":
-      "Segundo 'Framework' de JavaScript aprendido. Actualmente es el que más uso para realizar mis frontends.",
+    "Segundo 'Framework' de JavaScript aprendido. Actualmente es el que más uso para realizar mis frontends.",
     "projects": [
       {
-        "name": "",
-        "url": ""
+        "name": "Contacts app nodeJS",
+        "url": "https://github.com/Arnaiz23/contacts-app-nodejs"
+      },
+      {
+        "name" : "Proyecto Docker Simple",
+        "url": "https://github.com/Arnaiz23/ProyectoDockerSimple"
+      },
+      {
+        "name": "TuManga",
+        "url": "https://github.com/Arnaiz23/TuManga"
+      },
+      {
+        "name": "Pokemons",
+        "url": "https://github.com/Arnaiz23/Pokemons"
+      },
+      {
+        "name": "Giffy",
+        "url": "https://github.com/Arnaiz23/Giffy"
+      },
+      {
+        "name": "Netflix-Copia",
+        "url": "https://github.com/Arnaiz23/Netflix-Copia"
       }
     ],
     "courses": [
@@ -110,7 +124,7 @@
     "name": "NextJS",
     "icon": "/images/nextjs.svg",
     "description":
-      "Framework que utiliza React. Con este framework he creado dicho Portfolio.",
+    "Framework que utiliza React. Con este framework he creado dicho Portfolio.",
     "projects": [
       {
         "name": "ArnaizDev",
@@ -135,7 +149,7 @@
     "name": "Git",
     "icon": "/images/git.svg",
     "description":
-      "Control de versiones necesario para poder trabajar facilmente con los proyectos",
+    "Control de versiones necesario para poder trabajar facilmente con los proyectos",
     "projects": [],
     "courses": [
       {
@@ -157,11 +171,19 @@
     "name": "Docker",
     "icon": "/images/docker.svg",
     "description":
-      "Software basado en contenedores para poder crear proyectos más facilmente. Lo he usado varias veces para utilizar los proyectos a nivel más realista. Tambien lo uso bastante para hacer pruebas para las terminales y algun contenedor suelto.",
+    "Software basado en contenedores para poder crear proyectos más facilmente. Lo he usado varias veces para utilizar los proyectos a nivel más realista. Tambien lo uso bastante para hacer pruebas para las terminales y algun contenedor suelto.",
     "projects": [
       {
-        "name": "",
-        "url": ""
+        "name": "Contacts app nodeJS",
+        "url": "https://github.com/Arnaiz23/contacts-app-nodejs"
+      },
+      {
+        "name": "Proyecto Docker Simple",
+        "url": "https://github.com/Arnaiz23/ProyectoDockerSimple"
+      },
+      {
+        "name": "Netflix-Copia",
+        "url": "https://github.com/Arnaiz23/Netflix-Copia"
       }
     ],
     "courses": [
@@ -180,24 +202,19 @@
       {
         "name": "Docker & Nodejs. Aplicación de NodeJS en Docker Container",
         "description":
-          "Curso para aprender a utilizar una aplicación desarrollada con nodejs en Docker",
+        "Curso para aprender a utilizar una aplicación desarrollada con nodejs en Docker",
         "url": "https://www.youtube.com/watch?v=iLlmm0L-VpQ&t=1332s",
         "image": ""
       }
     ],
     "stack": "other"
   },
-{
+  {
     "name": "Terminal",
     "icon": "/images/terminal.svg",
     "description":
-      "Software basado en contenedores para poder crear proyectos más facilmente. Lo he usado varias veces para utilizar los proyectos a nivel más realista. Tambien lo uso bastante para hacer pruebas para las terminales y algun contenedor suelto.",
-    "projects": [
-      {
-        "name": "",
-        "url": ""
-      }
-    ],
+    "Software basado en contenedores para poder crear proyectos más facilmente. Lo he usado varias veces para utilizar los proyectos a nivel más realista. Tambien lo uso bastante para hacer pruebas para las terminales y algun contenedor suelto.",
+    "projects": [],
     "courses": [
       {
         "name": "Aprendiendo Docker | Capítulo 1: Bases, conceptos y cliente de Docker",
@@ -214,11 +231,219 @@
       {
         "name": "Docker & Nodejs. Aplicación de NodeJS en Docker Container",
         "description":
-          "Curso para aprender a utilizar una aplicación desarrollada con nodejs en Docker",
+        "Curso para aprender a utilizar una aplicación desarrollada con nodejs en Docker",
         "url": "https://www.youtube.com/watch?v=iLlmm0L-VpQ&t=1332s",
         "image": ""
       }
     ],
     "stack": "other"
+  },
+  {
+    "name": "React Native",
+    "icon": "/images/react.svg",
+    "description":
+    "Lenguaje aprendido para poder crear aplicaciones móviles,",
+    "projects":[
+      {
+        "name" : "Rate respository app",
+        "url" : "https://github.com/Arnaiz23/rate-repository-app"
+      }
+    ],
+    "courses": [
+      {
+        "name": "CURSO REACT NATIVE desde CERO - Creamos una app paso a paso",
+        "description": "Curso para aprender desde 0 React Native",
+        "url": "https://www.youtube.com/watch?v=qi87b6VcIHY",
+        "image": ""
+      }],
+      "stack": "frontend"
+  },
+  {
+    "name": "NodeJS",
+    "icon": "/images/node.svg",
+    "description":
+    "Lenguaje que más utilizo para crear backends. Utiliza JavaScript.",
+    "projects":[
+      {
+        "name" : "Contacts app nodeJS",
+        "url" : "https://github.com/Arnaiz23/contacts-app-nodejs"
+      },
+      {
+        "name": "Proyecto Docker Simple",
+        "url": "https://github.com/Arnaiz23/ProyectoDockerSimple"
+      },
+      {
+        "name": "TuManga",
+        "url": "https://github.com/Arnaiz23/TuManga"
+      },
+      {
+        "name": "Netflix-Copia",
+        "url": "https://github.com/Arnaiz23/Netflix-Copia"
+      }
+    ],
+    "courses": [
+      {
+        "name": "Aprendiendo Node.JS y Express para crear una API - Bootcamp FullStack Gratuito",
+        "description": "Aprender NodeJS y Express desde cero",
+        "url": "https://www.youtube.com/watch?v=o85OkeVtm7k",
+        "image": ""
+      },
+      {
+        "name": "Master en Frameworks JavaScript: Aprende Angular, React, Vue",
+        "description": "En este curso aprendí por primera vez React con clases",
+        "url": "https://www.udemy.com/course/master-en-frameworks-javascript-aprende-angular-react-vue-js/",
+        "image": ""
+      },
+      {
+        "name": "Tu primer REST API usando Node.js, ¿Que es una REST API?",
+        "description": "Aprender NodeJS y Express desde cero",
+        "url": "https://www.youtube.com/watch?v=bK3AJfs7qNY&t=415s",
+        "image": ""
+      },
+      {
+        "name": "Nodejs y Mongodb Aplicación completa (Login, Registro,CRUD, ES6+, y más)",
+        "description": "Aprender NodeJS y MongoDB desde cero",
+        "url": "https://www.youtube.com/watch?v=-bI0diefasA&t=10095s",
+        "image": ""
+      }
+    ],
+    "stack": "backend"
+  },
+  {
+    "name": "Express",
+    "icon": "/images/express.svg",
+    "description":
+    "Framework de NodeJS.",
+    "projects":[
+      {
+        "name" : "Contacts app nodeJS",
+        "url" : "https://github.com/Arnaiz23/contacts-app-nodejs"
+      },
+      {
+        "name": "Proyecto Docker Simple",
+        "url": "https://github.com/Arnaiz23/ProyectoDockerSimple"
+      },
+      {
+        "name": "TuManga",
+        "url": "https://github.com/Arnaiz23/TuManga"
+      },
+      {
+        "name": "Netflix-Copia",
+        "url": "https://github.com/Arnaiz23/Netflix-Copia"
+      }
+    ],
+    "courses": [
+      {
+        "name": "Aprendiendo Node.JS y Express para crear una API - Bootcamp FullStack Gratuito",
+        "description": "Aprender NodeJS y Express desde cero",
+        "url": "https://www.youtube.com/watch?v=o85OkeVtm7k",
+        "image": ""
+      },
+      {
+        "name": "Master en Frameworks JavaScript: Aprende Angular, React, Vue",
+        "description": "En este curso aprendí por primera vez React con clases",
+        "url": "https://www.udemy.com/course/master-en-frameworks-javascript-aprende-angular-react-vue-js/",
+        "image": ""
+      },
+      {
+        "name": "Tu primer REST API usando Node.js, ¿Que es una REST API?",
+        "description": "Aprender NodeJS y Express desde cero",
+        "url": "https://www.youtube.com/watch?v=bK3AJfs7qNY&t=415s",
+        "image": ""
+      },
+      {
+        "name": "Nodejs y Mongodb Aplicación completa (Login, Registro,CRUD, ES6+, y más)",
+        "description": "Aprender NodeJS y MongoDB desde cero",
+        "url": "https://www.youtube.com/watch?v=-bI0diefasA&t=10095s",
+        "image": ""
+      }
+    ],
+    "stack": "backend"
+  },
+  {
+    "name": "MongoDB",
+    "icon": "/images/mongo.svg",
+    "description":
+    "Base de Datos no relacional. Es la que más uso ya que me resulta más sencillo usarlo con MongoDB",
+    "projects":[
+      {
+        "name": "Proyecto Docker Simple",
+        "url": "https://github.com/Arnaiz23/ProyectoDockerSimple"
+      },
+      {
+        "name": "TuManga",
+        "url": "https://github.com/Arnaiz23/TuManga"
+      },
+      {
+        "name": "Netflix-Copia",
+        "url": "https://github.com/Arnaiz23/Netflix-Copia"
+      }
+    ],
+    "courses": [
+      {
+        "name": "MongoDB, Curso Practico Rápido, Desde Cero Para Iniciantes",
+        "description": "Aprender MongoDB desde cero",
+        "url": "https://www.youtube.com/watch?v=Apbk83XL8L8",
+        "image": ""
+      }
+    ],
+    "stack": "backend"
+  },
+  {
+    "name": "MySQL",
+    "icon": "/images/mysql.svg",
+    "description":
+    "Base de Datos relacional.",
+    "projects":[
+      {
+        "name" : "Contacts app nodeJS",
+        "url" : "https://github.com/Arnaiz23/contacts-app-nodejs"
+      }
+    ],
+    "courses": [
+      {
+        "name": "Aprende SQL ahora! curso completo gratis desde cero",
+        "description": "Aprender MySQL desde cero",
+        "url": "https://www.youtube.com/watch?v=uUdKAYl-F7g&t=4355s",
+        "image": ""
+      }
+    ],
+    "stack": "backend"
+  },
+  {
+    "name": "Nginx",
+    "icon": "/images/nginx.svg",
+    "description":
+    "Servidor Web que más uso. Aprendido en el Grado Superior e investigando",
+    "projects": [],
+    "courses": [],
+    "stack": "other"
+  },
+{
+    "name": "Apache",
+    "icon": "/images/apache.svg",
+    "description":
+    "Servidor Web secundario. Aprendido en el Grado Superior e investigando",
+    "projects": [],
+    "courses": [],
+    "stack": "other"
+  },
+{
+    "name": "Python",
+    "icon": "/images/python.svg",
+    "description":
+    "Lenguaje para el lado del backend. Actualmente estoy en proceso de aprenderlo.",
+    "projects": [],
+    "courses": [
+      {
+        "name": "Aprendiendo a PROGRAMAR en PYTHON Desde Cero",
+        "description": "Aprender Python desde cero. Serie de directos de MoureDevAprende SQL ahora! curso completo gratis desde cero",
+        "url": "https://www.twitch.tv/videos/1551265068?filter=archives&sort=time",
+        "image": ""
+      }
+
+    ],
+    "stack": "backend"
   }
+
 ]
