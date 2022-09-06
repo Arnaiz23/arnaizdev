@@ -27,6 +27,13 @@
   min-height: 750px;
 }
 
+.main > p {
+  padding: 15px;
+  background-color: #777;
+  border-radius: 10px;
+  text-align: center;
+}
+
 .projects {
   display: flex;
   flex-direction: column;

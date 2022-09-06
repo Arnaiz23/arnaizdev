@@ -80,9 +80,10 @@ export async function getServerSideProps(context) {
   const { params } = context
   const { name } = params
 
-  const apiResponse = await fetch("http://localhost:3000/api/projects").then(
-    (res) => res.json()
-  )
-  const props = apiResponse.find((project) => project.name === name)
-  return { props }
+  const apiResponse = await fetch(`${process.env.API_URL}/projects`)
+  if (apiResponse.ok) {
+    const data = await apiResponse.json()
+    const props = data.find((project) => project.name === name)
+    return { props }
+  }
 }

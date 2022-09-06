@@ -11,7 +11,7 @@ export default function Course({ course }) {
             src={course.image}
             alt={course.name}
             width={300}
-            height={220}
+            height={200}
             className={style.image}
           />
         </picture>

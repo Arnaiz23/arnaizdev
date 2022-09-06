@@ -25,3 +25,4 @@
 - Check the technologie page CSS
 - Complete the about me data
 - Images courses
+- Nav responsive

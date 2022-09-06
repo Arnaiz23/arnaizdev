@@ -40,18 +40,15 @@ export default function Home({ frontend, backend, other }) {
   )
 }
 
-Home.getInitialProps = async () => {
-  const technologies = await fetch(
-    "http://localhost:3000/api/technologies"
-  ).then((res) => res.json())
+export async function getServerSideProps() {
+  const technologies = await fetch(`${process.env.API_URL}/technologies`)
 
-  const frontend = technologies.filter((object) => object.stack === "frontend")
-  const backend = technologies.filter((object) => object.stack === "backend")
-  const other = technologies.filter((object) => object.stack === "other")
-  return { frontend, backend, other }
-  /* 
-   return fetch("http://localhost:3000/api/technologies").then((res) =>
-    res.json()
-  )
-    */
+  if (technologies.ok) {
+    const data = await technologies.json()
+
+    const frontend = data.filter((object) => object.stack === "frontend")
+    const backend = data.filter((object) => object.stack === "backend")
+    const other = data.filter((object) => object.stack === "other")
+    return { props: { frontend, backend, other } }
+  }
 }

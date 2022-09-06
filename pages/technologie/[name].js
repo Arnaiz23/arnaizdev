@@ -68,8 +68,8 @@ export default function OneTechnologie({
 export async function getServerSideProps(context) {
   const { params } = context
   const { name } = params
-  const data = await fetch("http://localhost:3000/api/technologies").then(
-    (res) => res.json()
+  const data = await fetch(`${process.env.API_URL}/technologies`).then((res) =>
+    res.json()
   )
   const tech = data.find((e) => e.name === name)
   return { props: tech }
