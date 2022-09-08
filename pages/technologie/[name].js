@@ -21,7 +21,7 @@ export default function OneTechnologie({
       <Header />
       <section className={style.main}>
         <header className={style.header}>
-          <Image src={icon} width={100} height={100} />
+          <Image src={`/images/${icon}`} width={100} height={100} />
           <h2>{name}</h2>
         </header>
         <p>{description}</p>

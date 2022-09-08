@@ -18,7 +18,7 @@ export default function TechStack({ title, line, elements }) {
           elements.map(({ name, icon }) => (
             <Link href={`/technologie/${name}`} key={name}>
               <picture className={style.iconTech} title={name}>
-                <Image src={icon} width={100} height={100} />
+                <Image src={`/images/${icon}`} width={100} height={100} />
               </picture>
             </Link>
           ))

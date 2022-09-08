@@ -7,9 +7,18 @@
     "date" : "2022",
     "url": "https://tumanga.arnaizdev.com",
     "languages": [
-      "React",
-      "NodeJS",
-      "MongoDB"
+      {
+        "name": "React",
+        "class": "react"
+      },
+      {
+        "name": "NodeJS",
+        "class" : "node"
+      },
+      {
+        "name": "MongoDB",
+        "class": "mongo"
+      }
     ],
     "repositorie": "https://github.com/Arnaiz23/TuManga"
   }

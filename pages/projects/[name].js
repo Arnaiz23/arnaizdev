@@ -42,9 +42,12 @@ export default function PageProject({
           <div className={style.containerRow}>
             <h3>Lenguajes</h3>
             <div className={style.projectLanguages}>
-              {languages.map((lang) => (
-                <span className={style.tagLanguage} key={lang}>
-                  {lang}
+              {languages.map(({ name, class: classLang }) => (
+                <span
+                  className={`${style.tagLanguage} ${classLang}`}
+                  key={name}
+                >
+                  {name}
                 </span>
               ))}
             </div>
@@ -67,7 +70,7 @@ export default function PageProject({
             width={1528}
             height={850}
             className={style.pictureProject}
-            alt="TuManga Home"
+            alt={`${name} Home`}
           />
         </picture>
       </section>

@@ -1,7 +1,7 @@
 [
   {
     "name": "HTML",
-    "icon": "/images/html.svg",
+    "icon": "html.svg",
     "description":
     "Es el primer lenguaje que aprendi. La primera vez que lo toque fue en segundo de Grado Medio. Gracias a conocer HTML, CSS y JS decidi ir por la rama de la programación web",
     "projects": [],
@@ -10,14 +10,14 @@
         "name": "Curso de HTML5 desde CERO (Completo)",
         "description": "Curso desde 0 de HTML creado por SoyDalto",
         "url": "https://www.youtube.com/watch?v=kN1XP-Bef7w&list=PLE8uP447fYpgOwKgbypiCGSz7veY2MLGb",
-        "image": ""
+        "image": "course-yt.svg"
       }
     ],
     "stack": "frontend"
   },
   {
     "name": "CSS",
-    "icon": "/images/css.svg",
+    "icon": "css.svg",
     "description": "Al igual que HTML, es el primer lenguaje que aprendi",
     "projects": [],
     "courses": [
@@ -25,14 +25,14 @@
         "name": "Curso de CSS desde CERO (Completo)",
         "description": "Curso desde 0 de CSS creado por SoyDalto",
         "url": "https://www.youtube.com/watch?v=OWKXEJN67FE&list=PLE8uP447fYpgOwKgbypiCGSz7veY2MLGb&index=2",
-        "image": ""
+        "image": "course-yt.svg"
       }
     ],
     "stack": "frontend"
   },
   {
     "name": "JavaScript",
-    "icon": "/images/js.svg",
+    "icon": "js.svg",
     "description":
     "Primer lenguaje de lógica que aprendi. Actualmente es el lenguaje que más utilizo y más me gusta.",
     "projects": [
@@ -50,26 +50,26 @@
         "name": "Curso de JAVASCRIPT desde CERO (Completo) - Nivel JUNIOR",
         "description": "Curso de JavaScript desde 0 creado por SoyDalto",
         "url": "https://www.youtube.com/watch?v=z95mZVUcJ-E&list=PLE8uP447fYpgOwKgbypiCGSz7veY2MLGb&index=3",
-        "image": ""
+        "image": "course-yt.svg"
       },
       {
         "name": "Curso de JAVASCRIPT desde CERO (Completo) - Nivel MID LEVEL",
         "description": "Curso de JavaScript desde 0 creado por SoyDalto",
         "url": "https://www.youtube.com/watch?v=xOinGb2MZSk&list=PLE8uP447fYpgOwKgbypiCGSz7veY2MLGb&index=4",
-        "image": ""
+        "image": "course-yt.svg"
       },
       {
         "name": "Curso de JAVASCRIPT desde CERO (Completo) - Nivel Master",
         "description": "Curso de JavaScript desde 0 creado por SoyDalto",
         "url": "https://www.youtube.com/watch?v=EbMi1Qj4rVE&list=PLE8uP447fYpgOwKgbypiCGSz7veY2MLGb&index=5",
-        "image": ""
+        "image": "course-yt.svg"
       }
     ],
     "stack": "frontend"
   },
   {
     "name": "React",
-    "icon": "/images/react.svg",
+    "icon": "react.svg",
     "description":
     "Segundo 'Framework' de JavaScript aprendido. Actualmente es el que más uso para realizar mis frontends.",
     "projects": [
@@ -103,26 +103,26 @@
         "name": "Master en Frameworks JavaScript: Aprende Angular, React, Vue",
         "description": "En este curso aprendí por primera vez React con clases",
         "url": "https://www.udemy.com/course/master-en-frameworks-javascript-aprende-angular-react-vue-js/",
-        "image": ""
+        "image": "course-udemy.svg"
       },
       {
         "name": "Curso REACT JS - Aprende desde CERO",
         "description": "Primer curso / video con el que aprendo React funcional",
         "url": "https://www.youtube.com/watch?v=T_j60n1zgu0&list=PLV8x_i1fqBw0B008sQn79YxCjkHJU84pC",
-        "image": "/images/midu.jpg"
+        "image": "course-yt.svg"
       },
       {
         "name": "Aprendiendo JavaScript y React desde cero - Bootcamp FullStack Gratuito",
         "description": "Bootcamp FullStack realizado por el programador Midudev",
         "url": "https://www.youtube.com/watch?v=YLvT1ELnaX4&list=PLV8x_i1fqBw0Kn_fBIZTa3wS_VZAqddX7&index=2",
-        "image": ""
+        "image": "course-yt.svg"
       }
     ],
     "stack": "frontend"
   },
   {
     "name": "NextJS",
-    "icon": "/images/nextjs.svg",
+    "icon": "nextjs.svg",
     "description":
     "Framework que utiliza React. Con este framework he creado dicho Portfolio.",
     "projects": [
@@ -140,14 +140,14 @@
         "name": "Aprendiendo NextJS, el framework de React con Server Side Rendering",
         "description": "Curso desde 0 de NextJs creado por Midudev",
         "url": "https://www.youtube.com/watch?v=2jxc8DMzt0I&list=PLV8x_i1fqBw1VR86y4C72xMGJ8ifjBwJ6",
-        "image": ""
+        "image": "course-yt.svg"
       }
     ],
     "stack": "frontend"
   },
   {
     "name": "Git",
-    "icon": "/images/git.svg",
+    "icon": "git.svg",
     "description":
     "Control de versiones necesario para poder trabajar facilmente con los proyectos",
     "projects": [],
@@ -156,20 +156,20 @@
         "name": "Aprende GIT ahora! curso completo GRATIS desde cero",
         "description": "Curso para aprender GIT de HolaMundo",
         "url": "https://www.youtube.com/watch?v=VdGzPZ31ts8",
-        "image": ""
+        "image": "course-yt.svg"
       },
       {
         "name": "Git y Github | Curso Práctico de Git y Github Desde Cero",
         "description": "Curso para aprender Git y Github de Fazt",
         "url": "https://www.youtube.com/watch?v=HiXLkL42tMU",
-        "image": ""
+        "image": "course-yt.svg"
       }
     ],
     "stack": "other"
   },
   {
     "name": "Docker",
-    "icon": "/images/docker.svg",
+    "icon": "docker.svg",
     "description":
     "Software basado en contenedores para poder crear proyectos más facilmente. Lo he usado varias veces para utilizar los proyectos a nivel más realista. Tambien lo uso bastante para hacer pruebas para las terminales y algun contenedor suelto.",
     "projects": [
@@ -191,27 +191,27 @@
         "name": "Aprendiendo Docker | Capítulo 1: Bases, conceptos y cliente de Docker",
         "description": "Curso sobre iniciacion en Docker por ManzDev",
         "url": "https://www.youtube.com/watch?v=mEYHQgZ7iZU",
-        "image": ""
+        "image": "course-yt.svg"
       },
       {
         "name": "Aprende Docker ahora| curso completo gratis desde cero!",
         "description": "Curso para aprender docker de HolaMundo",
         "url": "https://www.youtube.com/watch?v=4Dko5W96WHg&t=2033s",
-        "image": ""
+        "image": "course-yt.svg"
       },
       {
         "name": "Docker & Nodejs. Aplicación de NodeJS en Docker Container",
         "description":
         "Curso para aprender a utilizar una aplicación desarrollada con nodejs en Docker",
         "url": "https://www.youtube.com/watch?v=iLlmm0L-VpQ&t=1332s",
-        "image": ""
+        "image": "course-yt.svg"
       }
     ],
     "stack": "other"
   },
   {
     "name": "Terminal",
-    "icon": "/images/terminal.svg",
+    "icon": "terminal.svg",
     "description":
     "Software basado en contenedores para poder crear proyectos más facilmente. Lo he usado varias veces para utilizar los proyectos a nivel más realista. Tambien lo uso bastante para hacer pruebas para las terminales y algun contenedor suelto.",
     "projects": [],
@@ -220,27 +220,27 @@
         "name": "Aprendiendo Docker | Capítulo 1: Bases, conceptos y cliente de Docker",
         "description": "Curso sobre iniciacion en Docker por ManzDev",
         "url": "https://www.youtube.com/watch?v=mEYHQgZ7iZU",
-        "image": ""
+        "image": "course-yt.svg"
       },
       {
         "name": "Aprende Docker ahora| curso completo gratis desde cero!",
         "description": "Curso para aprender docker de HolaMundo",
         "url": "https://www.youtube.com/watch?v=4Dko5W96WHg&t=2033s",
-        "image": ""
+        "image": "course-yt.svg"
       },
       {
         "name": "Docker & Nodejs. Aplicación de NodeJS en Docker Container",
         "description":
         "Curso para aprender a utilizar una aplicación desarrollada con nodejs en Docker",
         "url": "https://www.youtube.com/watch?v=iLlmm0L-VpQ&t=1332s",
-        "image": ""
+        "image": "course-yt.svg"
       }
     ],
     "stack": "other"
   },
   {
     "name": "React Native",
-    "icon": "/images/react.svg",
+    "icon": "react.svg",
     "description":
     "Lenguaje aprendido para poder crear aplicaciones móviles,",
     "projects":[
@@ -254,13 +254,13 @@
         "name": "CURSO REACT NATIVE desde CERO - Creamos una app paso a paso",
         "description": "Curso para aprender desde 0 React Native",
         "url": "https://www.youtube.com/watch?v=qi87b6VcIHY",
-        "image": ""
+        "image": "course-yt.svg"
       }],
       "stack": "frontend"
   },
   {
     "name": "NodeJS",
-    "icon": "/images/node.svg",
+    "icon": "node.svg",
     "description":
     "Lenguaje que más utilizo para crear backends. Utiliza JavaScript.",
     "projects":[
@@ -286,32 +286,32 @@
         "name": "Aprendiendo Node.JS y Express para crear una API - Bootcamp FullStack Gratuito",
         "description": "Aprender NodeJS y Express desde cero",
         "url": "https://www.youtube.com/watch?v=o85OkeVtm7k",
-        "image": ""
+        "image": "course-yt.svg"
       },
       {
         "name": "Master en Frameworks JavaScript: Aprende Angular, React, Vue",
         "description": "En este curso aprendí por primera vez React con clases",
         "url": "https://www.udemy.com/course/master-en-frameworks-javascript-aprende-angular-react-vue-js/",
-        "image": ""
+        "image": "course-udemy.svg"
       },
       {
         "name": "Tu primer REST API usando Node.js, ¿Que es una REST API?",
         "description": "Aprender NodeJS y Express desde cero",
         "url": "https://www.youtube.com/watch?v=bK3AJfs7qNY&t=415s",
-        "image": ""
+        "image": "course-yt.svg"
       },
       {
         "name": "Nodejs y Mongodb Aplicación completa (Login, Registro,CRUD, ES6+, y más)",
         "description": "Aprender NodeJS y MongoDB desde cero",
         "url": "https://www.youtube.com/watch?v=-bI0diefasA&t=10095s",
-        "image": ""
+        "image": "course-yt.svg"
       }
     ],
     "stack": "backend"
   },
   {
     "name": "Express",
-    "icon": "/images/express.svg",
+    "icon": "express.svg",
     "description":
     "Framework de NodeJS.",
     "projects":[
@@ -337,32 +337,32 @@
         "name": "Aprendiendo Node.JS y Express para crear una API - Bootcamp FullStack Gratuito",
         "description": "Aprender NodeJS y Express desde cero",
         "url": "https://www.youtube.com/watch?v=o85OkeVtm7k",
-        "image": ""
+        "image": "course-yt.svg"
       },
       {
         "name": "Master en Frameworks JavaScript: Aprende Angular, React, Vue",
         "description": "En este curso aprendí por primera vez React con clases",
-        "url": "https://www.udemy.com/course/master-en-frameworks-javascript-aprende-angular-react-vue-js/",
-        "image": ""
+        "url": "https://www.udemy.cocourse-yt.svgm/course/master-en-frameworks-javascript-aprende-angular-react-vue-js/",
+        "image": "course-udemy.svg"
       },
       {
         "name": "Tu primer REST API usando Node.js, ¿Que es una REST API?",
         "description": "Aprender NodeJS y Express desde cero",
         "url": "https://www.youtube.com/watch?v=bK3AJfs7qNY&t=415s",
-        "image": ""
+        "image": "course-yt.svg"
       },
       {
         "name": "Nodejs y Mongodb Aplicación completa (Login, Registro,CRUD, ES6+, y más)",
         "description": "Aprender NodeJS y MongoDB desde cero",
         "url": "https://www.youtube.com/watch?v=-bI0diefasA&t=10095s",
-        "image": ""
+        "image": "course-yt.svg"
       }
     ],
     "stack": "backend"
   },
   {
     "name": "MongoDB",
-    "icon": "/images/mongo.svg",
+    "icon": "mongo.svg",
     "description":
     "Base de Datos no relacional. Es la que más uso ya que me resulta más sencillo usarlo con MongoDB",
     "projects":[
@@ -384,14 +384,14 @@
         "name": "MongoDB, Curso Practico Rápido, Desde Cero Para Iniciantes",
         "description": "Aprender MongoDB desde cero",
         "url": "https://www.youtube.com/watch?v=Apbk83XL8L8",
-        "image": ""
+        "image": "course-yt.svg"
       }
     ],
     "stack": "backend"
   },
   {
     "name": "MySQL",
-    "icon": "/images/mysql.svg",
+    "icon": "mysql.svg",
     "description":
     "Base de Datos relacional.",
     "projects":[
@@ -405,14 +405,14 @@
         "name": "Aprende SQL ahora! curso completo gratis desde cero",
         "description": "Aprender MySQL desde cero",
         "url": "https://www.youtube.com/watch?v=uUdKAYl-F7g&t=4355s",
-        "image": ""
+        "image": "course-yt.svg"
       }
     ],
     "stack": "backend"
   },
   {
     "name": "Nginx",
-    "icon": "/images/nginx.svg",
+    "icon": "nginx.svg",
     "description":
     "Servidor Web que más uso. Aprendido en el Grado Superior e investigando",
     "projects": [],
@@ -421,7 +421,7 @@
   },
 {
     "name": "Apache",
-    "icon": "/images/apache.svg",
+    "icon": "apache.svg",
     "description":
     "Servidor Web secundario. Aprendido en el Grado Superior e investigando",
     "projects": [],
@@ -430,7 +430,7 @@
   },
 {
     "name": "Python",
-    "icon": "/images/python.svg",
+    "icon": "python.svg",
     "description":
     "Lenguaje para el lado del backend. Actualmente estoy en proceso de aprenderlo.",
     "projects": [],
@@ -439,7 +439,7 @@
         "name": "Aprendiendo a PROGRAMAR en PYTHON Desde Cero",
         "description": "Aprender Python desde cero. Serie de directos de MoureDevAprende SQL ahora! curso completo gratis desde cero",
         "url": "https://www.twitch.tv/videos/1551265068?filter=archives&sort=time",
-        "image": ""
+        "image": "course-twitch.svg"
       }
 
     ],

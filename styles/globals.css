@@ -11,10 +11,47 @@
   --grey: #626262;
   --color-react: #61dbfb;
   --color-mongo: #009929;
+  --color-node: #a5e510;
+  --color-python: #1077e5;
+  --color-mysql: #69a8ec;
+  --color-next: #000e1d;
+  --color-js: #dce20c;
 }
 
 body {
   background-color: #3e4144;
   color: #fff;
   font-family: "Inter", sans-serif;
+}
+
+.react {
+  color: #000;
+  background-color: var(--color-react);
+}
+
+.mongo {
+  background-color: var(--color-mongo);
+}
+
+.node {
+  background-color: var(--color-node);
+  color: #000;
+}
+
+.next {
+  background-color: var(--color-next);
+}
+
+.python {
+  background-color: var(--color-python);
+}
+
+.js {
+  background-color: var(--color-js);
+  color: #000;
+}
+
+.mysql {
+  background-color: var(--color-mysql);
+  color: #000;
 }
