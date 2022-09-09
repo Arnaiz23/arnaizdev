@@ -1,0 +1,35 @@
+.icon {
+  width: 26px;
+  cursor: pointer;
+}
+
+.navRespUl {
+  text-decoration: none;
+  list-style: none;
+  position: absolute;
+  top: 70px;
+  right: 20px;
+  background-color: #2d3748;
+  display: none;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 15px;
+  padding: 20px 30px;
+  border-radius: 10px;
+  z-index: 30;
+}
+
+.navRespUl li:hover {
+  text-decoration: underline;
+}
+
+.showNav {
+  display: flex;
+}
+
+@media screen and (min-width: 480px) {
+  .navResp {
+    display: none;
+  }
+}

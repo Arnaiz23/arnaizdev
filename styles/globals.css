@@ -24,6 +24,10 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
 .react {
   color: #000;
   background-color: var(--color-react);

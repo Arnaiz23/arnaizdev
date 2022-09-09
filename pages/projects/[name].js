@@ -1,8 +1,6 @@
 import Image from "next/image"
 import Head from "next/head"
-
-import Footer from "../../components/Footer"
-import Header from "../../components/Header"
+import Layout from "../../components/Layout"
 
 import style from "../../styles/OneProject.module.css"
 
@@ -16,11 +14,10 @@ export default function PageProject({
   languages,
 }) {
   return (
-    <>
+    <Layout>
       <Head>
         <title>Arnaizdev - {name}</title>
       </Head>
-      <Header />
       <section className={style.mainContainer}>
         <header className={style.headerContainer}>
           <h2>{name}</h2>
@@ -74,8 +71,7 @@ export default function PageProject({
           />
         </picture>
       </section>
-      <Footer />
-    </>
+    </Layout>
   )
 }
 

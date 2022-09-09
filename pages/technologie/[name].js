@@ -2,9 +2,8 @@ import Head from "next/head"
 import Image from "next/image"
 
 import style from "../../styles/OneTechnologie.module.css"
-import Footer from "../../components/Footer"
-import Header from "../../components/Header"
 import Course from "../../components/course"
+import Layout from "../../components/Layout"
 
 export default function OneTechnologie({
   name,
@@ -14,11 +13,10 @@ export default function OneTechnologie({
   icon,
 }) {
   return (
-    <>
+    <Layout>
       <Head>
         <title>Arnaizdev - {name}</title>
       </Head>
-      <Header />
       <section className={style.main}>
         <header className={style.header}>
           <Image src={`/images/${icon}`} width={100} height={100} />
@@ -60,8 +58,7 @@ export default function OneTechnologie({
           </div>
         </section>
       </section>
-      <Footer />
-    </>
+    </Layout>
   )
 }
 

@@ -1,4 +1,5 @@
 import React from "react"
+import Image from "next/image"
 
 import style from "../styles/HeaderHome.module.css"
 
@@ -13,7 +14,9 @@ export default function HeaderHome() {
         </h3>
         <p>Fan de la maquetación con HTML y CSS</p>
       </div>
-      <div className={style.headerHomeRight}></div>
+      <div className={style.headerHomeRight}>
+        <Image src="/images/BrandTransparent.png" width={200} height={200} />
+      </div>
     </div>
   )
 }

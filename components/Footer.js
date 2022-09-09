@@ -2,7 +2,7 @@ import React from "react"
 
 export default function Footer() {
   return (
-    <>
+    <footer>
       <h3>&copy; 2022 Adrián Arnaiz Fernández. All Right Reserverd.</h3>
       <style jsx>{`
         h3 {
@@ -13,6 +13,6 @@ export default function Footer() {
           padding: 20px;
         }
       `}</style>
-    </>
+    </footer>
   )
 }

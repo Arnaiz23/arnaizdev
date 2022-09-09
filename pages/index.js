@@ -1,20 +1,17 @@
 import style from "../styles/Home.module.css"
 import Head from "next/head"
 
-import Header from "../components/Header"
-import Footer from "../components/Footer"
-
 import TechStack from "../components/TechStack"
 import OptionsCardsHome from "../components/OptionsCardsHome"
 import HeaderHome from "../components/HeaderHome"
+import Layout from "../components/Layout"
 
 export default function Home({ frontend, backend, other }) {
   return (
-    <>
+    <Layout>
       <Head>
         <title>Arnaizdev - Home</title>
       </Head>
-      <Header />
       <HeaderHome />
       <OptionsCardsHome />
       <div className={style.line}></div>
@@ -34,9 +31,7 @@ export default function Home({ frontend, backend, other }) {
         />
         <TechStack title="Other stack" line={style.line} elements={other} />
       </div>
-
-      <Footer />
-    </>
+    </Layout>
   )
 }
 

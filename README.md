@@ -22,5 +22,9 @@
 ## Missing
 
 - Check the technologie page CSS
-- Complete the about me data
-- Nav responsive
+- Header Sticky with blur???
+
+## SEO
+
+- Tool: https://search.google.com/u/1/search-console/welcome
+- Google analitics -> technically okey

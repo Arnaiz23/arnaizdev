@@ -5,6 +5,7 @@
   align-items: center;
   padding: 5px 20px;
   font-size: 18px;
+  position: relative;
 }
 
 .brand {
@@ -51,7 +52,10 @@
 
 @media screen and (max-width: 486px) {
   .navOptions {
-    font-size: 16px;
-    text-align: center;
+    display: none;
+  }
+
+  .nav {
+    flex-direction: row;
   }
 }

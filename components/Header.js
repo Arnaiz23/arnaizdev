@@ -5,6 +5,7 @@ import Image from "next/image"
 import Link from "next/link"
 
 import ActiveLink from "../components/ActiveLink"
+import HeaderResp from "./HeaderResp"
 
 export default function Header() {
   return (
@@ -27,6 +28,7 @@ export default function Header() {
           />
         </ul>
       </nav>
+      <HeaderResp />
     </header>
   )
 }

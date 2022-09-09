@@ -1,17 +1,15 @@
 import Head from "next/head"
 
-import Footer from "../../components/Footer"
-import Header from "../../components/Header"
+import Layout from "../../components/Layout"
 import styles from "../../styles/Projects.module.css"
 import ProjectCard from "../../components/ProjectCard"
 
 export default function Projects({ data }) {
   return (
-    <>
+    <Layout>
       <Head>
         <title>Arnaizdev - Projects</title>
       </Head>
-      <Header />
       <section className={styles.containerMain}>
         <h2>Proyectos</h2>
         <section className={styles.containerProjects}>
@@ -24,8 +22,7 @@ export default function Projects({ data }) {
           )}
         </section>
       </section>
-      <Footer />
-    </>
+    </Layout>
   )
 }
 

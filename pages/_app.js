@@ -5,6 +5,10 @@ export default function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-RNGX5Z9JNC"
+        ></script>
         <link rel="icon" href="/images/favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
@@ -14,9 +18,7 @@ export default function MyApp({ Component, pageProps }) {
         />
         <meta name="author" content="Adrián Arnaiz Fernández" />
       </Head>
-      <main>
-        <Component {...pageProps} />
-      </main>
+      <Component {...pageProps} />
     </>
   )
 }

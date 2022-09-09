@@ -1,8 +1,6 @@
 import Head from "next/head"
 import ContactOption from "../../components/ContactOption"
-
-import Footer from "../../components/Footer"
-import Header from "../../components/Header"
+import Layout from "../../components/Layout"
 
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons"
 
@@ -10,11 +8,10 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons"
 
 export default function Contact() {
   return (
-    <>
+    <Layout>
       <Head>
         <title>Arnaizdev - Contact</title>
       </Head>
-      <Header />
       <article>
         <h2>Contacto y recursos</h2>
         <section>
@@ -46,7 +43,6 @@ export default function Contact() {
           font-size: 30px;
         }
       `}</style>
-      <Footer />
-    </>
+    </Layout>
   )
 }
