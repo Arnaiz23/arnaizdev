@@ -27,7 +27,7 @@ export default function AboutMe() {
           <div>
             <p>
               Soy Adrián Arnaiz Fernández, desarrollo aplicaciones web desde
-              2021.
+              2021. Actualmente residiendo en Madrid, España.
             </p>
             <p>
               En segundo de Grado Medio, descubri la parte de programación con

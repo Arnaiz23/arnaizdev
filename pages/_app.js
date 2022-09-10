@@ -17,6 +17,15 @@ export default function MyApp({ Component, pageProps }) {
           rel="stylesheet"
         />
         <meta name="author" content="Adrián Arnaiz Fernández" />
+        <meta
+          name="keywords"
+          content="Portfolio Madrid Full Stack Developer Frontend Programador web React"
+        />
+        <meta
+          name="desctiption"
+          content="Portfolio de Adrián Arnaiz Fernández. Se explica los lenguajes que sabe utilizar, los proyectos realizados e información sobre él."
+        />
+        <meta name="robots" content="index" />
       </Head>
       <Component {...pageProps} />
     </>

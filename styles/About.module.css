@@ -65,7 +65,7 @@
   display: flex;
   flex-direction: column;
   gap: 40px;
-  width: 90%;
+  width: 60%;
 }
 
 .containerBio > div {
@@ -89,14 +89,28 @@
   }
 }
 
+@media screen and (max-width: 1160px) {
+  .containerBio {
+    width: 80%;
+  }
+}
+
 @media screen and (max-width: 775px) {
   .containerText > div {
     width: 100%;
+  }
+
+  .containerBio {
+    width: 90%;
   }
 }
 
 @media screen and (max-width: 532px) {
   .header {
     flex-direction: column-reverse;
+  }
+
+  .containerBio {
+    width: 100%;
   }
 }
