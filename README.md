@@ -11,7 +11,7 @@ How the name say, this is my personal portfolio where I describe personal inform
 
 ## Description
 
-In this project, I used NextJS because the language that I prefer is React and Next is the best option for create a good project in this library. I need the SEO tools and I take advantage of this project for practice and learn NextJS.
+In this project, I used NextJS because this is the language that I prefer since it use React and also is the best option for create a good project with this library. I need the SEO tools and I take advantage of this project for practice and learn NextJS.
 
 ## Future features
 
