@@ -4,10 +4,19 @@ How the name say, this is my personal portfolio where I describe personal inform
 
 ## Languages / Technologies
 
-![React shield](https://img.shields.io/badge/Next-000?style=for-the-badge&logo=Next.js&logoColor=fff)
+### Frontend
+
+![React](https://img.shields.io/badge/Next-000?style=for-the-badge&logo=Next.js&logoColor=fff)
 ![HTML](https://img.shields.io/badge/HTML-orange?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-blue?&style=for-the-badge&logo=css3&logoColor=white&)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+
+### Others
+
+![Prettier](https://img.shields.io/badge/Prettier-F7B93E?style=for-the-badge&logo=Prettier&logoColor=000)
+![ESLint](https://img.shields.io/badge/EsLint-4B32C3?style=for-the-badge&logo=ESLint&logoColor=fff)
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=Figma&logoColor=fff)
+![Terminal](https://img.shields.io/badge/Terminal-241F31?style=for-the-badge&logo=GNOME%20Terminal&logoColor=fff)
 
 ## Description
 
