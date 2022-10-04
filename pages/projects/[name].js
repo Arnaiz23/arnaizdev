@@ -12,6 +12,7 @@ export default function PageProject({
   url,
   repositorie,
   languages,
+  images,
 }) {
   return (
     <Layout>
@@ -27,14 +28,18 @@ export default function PageProject({
         <section className={style.containerDataProject}>
           <div className={style.containerRow}>
             <h3>URL</h3>
-            <a
-              href={url}
-              target="_blank"
-              className={style.link}
-              rel="noreferrer"
-            >
-              {url}
-            </a>
+            {url ? (
+              <a
+                href={url}
+                target="_blank"
+                className={style.link}
+                rel="noreferrer"
+              >
+                {url}
+              </a>
+            ) : (
+              <p className={style.link}>No existe</p>
+            )}
           </div>
           <div className={style.containerRow}>
             <h3>Lenguajes</h3>
@@ -61,14 +66,18 @@ export default function PageProject({
             </a>
           </div>
         </section>
-        <picture>
-          <Image
-            src={image}
-            width={1528}
-            height={850}
-            className={style.pictureProject}
-            alt={`${name} Home`}
-          />
+        <picture style={{ display: "flex", flexDirection: "column", gap: 20 }}>
+          {images &&
+            images.map((image) => (
+              <Image
+                src={image}
+                width={1528}
+                height={850}
+                className={style.pictureProject}
+                alt={`${name} Home`}
+                key={image}
+              />
+            ))}
         </picture>
       </section>
     </Layout>

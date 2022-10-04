@@ -20,6 +20,41 @@
         "class": "mongo"
       }
     ],
-    "repositorie": "https://github.com/Arnaiz23/TuManga"
+    "repositorie": "https://github.com/Arnaiz23/TuManga",
+    "images" : [
+      "/images/TuManga.png",
+      "/images/tumanga-platform.png"
+    ]
+  }, 
+  {
+    "image": "/images/dark-mode.png",
+    "name" : "Bloc Notes",
+    "short_description": "Aplicación personal para tomar notas",
+    "description": "Aplicación creada para poder recoger mis notas y poder acceder a ellas desde cualquier dispositivo. Este proyecto cuenta con un backend y frontend.",
+    "date" : "2022",
+    "url": "",
+    "languages": [
+      {
+        "name": "React",
+        "class": "react"
+      },
+      {
+        "name": "Tailwind CSS",
+        "class": "tailwind"
+      },
+      {
+        "name": "NodeJS",
+        "class" : "node"
+      },
+      {
+        "name": "MongoDB",
+        "class": "mongo"
+      }
+    ],
+    "repositorie": "https://github.com/Arnaiz23/bloc-notes",
+    "images" : [
+      "/images/dark-mode.png",
+      "/images/light-mode.png"
+    ]
   }
 ]

@@ -255,8 +255,9 @@
         "description": "Curso para aprender desde 0 React Native",
         "url": "https://www.youtube.com/watch?v=qi87b6VcIHY",
         "image": "course-yt.svg"
-      }],
-      "stack": "frontend"
+      }
+    ],
+    "stack": "frontend"
   },
   {
     "name": "NodeJS",
@@ -419,7 +420,7 @@
     "courses": [],
     "stack": "other"
   },
-{
+  {
     "name": "Apache",
     "icon": "apache.svg",
     "description":
@@ -428,7 +429,7 @@
     "courses": [],
     "stack": "other"
   },
-{
+  {
     "name": "Python",
     "icon": "python.svg",
     "description":
@@ -444,6 +445,44 @@
 
     ],
     "stack": "backend"
+  },
+  {
+    "name": "TailwindCSS",
+    "icon": "tailwind.svg",
+    "description":
+    "Framework de CSS.",
+    "projects":[
+      {
+        "name" : "Bloc Notes",
+        "url" : "https://github.com/Arnaiz23/bloc-notes"
+      }
+    ],
+    "courses": [],
+    "stack": "frontend"
+  },
+  {
+    "name": "Jest",
+    "icon": "jest.svg",
+    "description":
+    "Tester de aplicaciones javascript.",
+    "projects":[
+      {
+        "name" : "Bloc Notes",
+        "url" : "https://github.com/Arnaiz23/bloc-notes"
+      },
+      {
+        "name": "TuManga",
+        "url": "https://github.com/Arnaiz23/TuManga"
+      }
+    ],
+    "courses": [
+      {
+        "name": "🧪 Introducción al Testing desde Cero con JEST ✅ (Bootcamp FullStack Gratuito)",
+        "description": "Introducción al Testing desde Cero con JEST",
+        "url": "https://www.youtube.com/watch?v=_DzBez4qMi0",
+        "image": "course-yt.svg"
+      }
+    ],
+    "stack": "backend"
   }
-
 ]
