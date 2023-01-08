@@ -5,7 +5,6 @@ import style from "../../styles/About.module.css"
 
 import arnaiz from "../../public/images/arnaiz.jpg"
 import Layout from "../../components/Layout"
-import { downloadCv } from "../api/curriculum"
 
 export default function AboutMe() {
   return (
@@ -24,9 +23,13 @@ export default function AboutMe() {
           </div>
         </header>
         <div className={style.containerButton}>
-          <button onClick={() => downloadCv()} className={style.buttonCV}>
+          <a
+            href={`${process.env.NEXT_PUBLIC_API_URL}/curriculum`}
+            download
+            className={style.buttonCV}
+          >
             Descargar CV
-          </button>
+          </a>
         </div>
         <article className={style.containerText}>
           <h3>Sobre mi</h3>
