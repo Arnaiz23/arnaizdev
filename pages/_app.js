@@ -18,7 +18,7 @@ export default function MyApp({ Component, pageProps }) {
           content="Portfolio Madrid Full Stack Developer Frontend Programador web React"
         />
         <meta
-          name="desctiption"
+          name="description"
           content="Portfolio de Adrián Arnaiz Fernández. Se explica los lenguajes que sabe utilizar, los proyectos realizados e información sobre él."
         />
         <meta name="robots" content="index" />

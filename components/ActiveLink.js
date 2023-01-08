@@ -10,10 +10,10 @@ export default function ActiveLink({ name, href, style }) {
   }
 
   return (
-    <Link href={href}>
-      <a style={styles} className={style}>
-        <li>{name}</li>
-      </a>
-    </Link>
+    <li style={styles} className={style}>
+      <Link href={href} style={{ color: "#fff" }}>
+        {name}
+      </Link>
+    </li>
   )
 }

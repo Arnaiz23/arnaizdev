@@ -8,7 +8,7 @@ export default function TechStack({ title, line, elements }) {
   return (
     <div className={style.containerHomeStacks}>
       <header>
-        <h4>{title}</h4>
+        <h3>{title}</h3>
         <div className={line}></div>
       </header>
       <section className={style.techsImages}>
@@ -18,7 +18,12 @@ export default function TechStack({ title, line, elements }) {
           elements.map(({ name, icon }) => (
             <Link href={`/technologie/${name}`} key={name}>
               <picture className={style.iconTech} title={name}>
-                <Image src={`/images/${icon}`} width={100} height={100} />
+                <Image
+                  src={`/images/${icon}`}
+                  width={100}
+                  height={100}
+                  alt={`${name} icon`}
+                />
               </picture>
             </Link>
           ))

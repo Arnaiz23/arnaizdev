@@ -6,7 +6,7 @@ export default function Footer() {
       <h3>&copy; 2022 Adrián Arnaiz Fernández. All Right Reserved.</h3>
       <style jsx>{`
         h3 {
-          color: #aaa;
+          color: #bbb;
           font-size: 14px;
           width: 100%;
           text-align: center;

@@ -15,7 +15,12 @@ export default function HeaderHome() {
         <p>Fan de la maquetación con HTML y CSS</p>
       </div>
       <div className={style.headerHomeRight}>
-        <Image src="/images/BrandTransparent.png" width={200} height={200} />
+        <Image
+          src="/images/BrandTransparent.png"
+          width={200}
+          height={200}
+          alt="Arnaizdev brand"
+        />
       </div>
     </div>
   )

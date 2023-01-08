@@ -11,7 +11,7 @@ export default function Header() {
   return (
     <header className={styles.nav}>
       <div className={styles.brand}>
-        <Image src={brand} width="80" height="80" />
+        <Image src={brand} width="80" height="80" alt="Arnaizdev brand" />
         <Link href="/">
           <h1>Arnaizdev</h1>
         </Link>
