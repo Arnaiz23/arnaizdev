@@ -37,6 +37,7 @@ a {
 
 .mongo {
   background-color: var(--color-mongo);
+  color: #000;
 }
 
 .node {

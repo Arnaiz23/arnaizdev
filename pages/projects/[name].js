@@ -5,7 +5,6 @@ import Layout from "../../components/Layout"
 import style from "../../styles/OneProject.module.css"
 
 export default function PageProject({
-  image,
   name,
   description,
   date,
