@@ -56,5 +56,38 @@
       "/images/dark-mode.png",
       "/images/light-mode.png"
     ]
+  },
+  {
+    "image": "/images/movies-dark.png",
+    "name" : "Movies",
+    "short_description": "Página web al estilo de IMDB.",
+    "description": "Página web estilo IMDB creada principalmente para aprender y poner en práctica lo aprendido con TypeScript tanto en Backend como Frontend.",
+    "date" : "2022",
+    "url": "https://movies.arnaizdev.com/",
+    "languages": [
+      {
+        "name": "TypeScript",
+        "class": "typescript"
+      },
+      {
+        "name": "NodeJS",
+        "class": "node"
+      },
+      {
+        "name": "Tailwind CSS",
+        "class": "tailwind"
+      },
+      {
+        "name": "React",
+        "class": "react"
+      }
+    ],
+    "repositorie": "https://github.com/Arnaiz23/movie-project",
+    "images" : [
+      "/images/one-movie.png",
+      "/images/movies-dark.png",
+      "/images/movies-light.png",
+      "/images/movies-search.png"
+    ]
   }
 ]
