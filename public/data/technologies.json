@@ -484,5 +484,41 @@
       }
     ],
     "stack": "backend"
+  },
+  {
+    "name": "TypeScript",
+    "icon": "typescript.svg",
+    "description": "JavaScript tipificado. Lo he aprendido recientemente ya que facilita la creación de código, además de que a nivel profesional se utiliza mucho.",
+    "projects": [
+      {
+        "name": "movie-project",
+        "url": "https://github.com/Arnaiz23/movie-project"
+      },
+      {
+        "name": "react-typescript",
+        "url": "https://github.com/Arnaiz23/react-typescript"
+      }
+    ],
+    "courses": [
+      {
+        "name": "📘 Tutorial TypeScript con Node.js y Express. ¡Crea tu API REST con tipos estáticos DESDE CERO!",
+        "description": "Tutorial de Midudev en el que te enseña TypeScript desde cero en NodeJS",
+        "url": "https://www.youtube.com/watch?v=ZpY5KdGQvwI&t=1911s",
+        "image": "course-yt.svg"
+      },
+      {
+        "name": "TypeScript - Tutorial desde CERO en Español 🏆",
+        "description": "Tutorial de Midudev en el que te enseña TypeScript desde cero.",
+        "url": "https://www.youtube.com/watch?v=xtp_DuPxo9Q&t=198s",
+        "image": "course-yt.svg"
+      },
+      {
+        "name": "⚛️ REACT + TYPESCRIPT: Creando un proyecto desde cero y paso a paso (Tutorial en español)",
+        "description": "Tutorial de Midudev enseñando TypeScript con React.",
+        "url": "https://www.youtube.com/watch?v=15VKbky2gB4&t=3488s",
+        "image": "course-yt.svg"
+      }
+    ],
+    "stack": "frontend"
   }
 ]
