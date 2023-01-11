@@ -19,17 +19,20 @@ export default function Contact() {
             title="Arnaiz23"
             image={faGithub}
             link="https://github.com/Arnaiz23"
+            ariaLabel="GitHub link"
           />
           <ContactOption
             title="adri.arnaizfernandez@gmail.com"
             image={faEnvelope}
             reverse
             link="mailto:adri.arnaizfernandez@gmail.com"
+            ariaLabel="Gmail link"
           />
           <ContactOption
             title="Adrián Arnaiz Fernández"
             image={faLinkedin}
             link="https://es.linkedin.com/in/adri%C3%A1n-arnaiz-fern%C3%A1ndez-b67743227/en?trk=people-guest_people_search-card"
+            ariaLabel="Linkedin link"
           />
         </section>
       </article>

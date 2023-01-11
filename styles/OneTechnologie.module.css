@@ -29,9 +29,10 @@
 
 .main > p {
   padding: 15px;
-  background-color: #777;
+  background-color: #dedede;
   border-radius: 10px;
   text-align: center;
+  color: #2f3032;
 }
 
 .projects {
@@ -42,7 +43,12 @@
   gap: 20px;
 }
 
-.projects > ul > a {
+.projectList {
+  display: flex;
+  flex-direction: column;
+}
+
+.projects > ul > li {
   text-decoration: none;
   font-weight: bold;
   color: var(--secondary-green);
@@ -84,4 +90,10 @@
 .image {
   border-radius: 10px;
   background-color: #fff;
+}
+
+@media screen and (max-width: 800px) {
+  .projectList {
+    gap: 10px;
+  }
 }

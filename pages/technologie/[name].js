@@ -19,7 +19,12 @@ export default function OneTechnologie({
       </Head>
       <section className={style.main}>
         <header className={style.header}>
-          <Image src={`/images/${icon}`} width={100} height={100} />
+          <Image
+            src={`/images/${icon}`}
+            width={100}
+            height={100}
+            alt={`${name} icon`}
+          />
           <h2>{name}</h2>
         </header>
         <p>{description}</p>
@@ -29,16 +34,13 @@ export default function OneTechnologie({
               <h3>Proyectos</h3>
             </header>
 
-            <ul>
+            <ul className={style.projectList}>
               {projects.map((project) => (
-                <a
-                  key={project.name}
-                  href={project.url}
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <li>{project.name}</li>
-                </a>
+                <li key={project.name}>
+                  <a href={project.url} target="_blank" rel="noreferrer">
+                    {project.name}
+                  </a>
+                </li>
               ))}
             </ul>
           </section>
