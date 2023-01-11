@@ -1,8 +1,8 @@
 import Head from "next/head"
 
-import Layout from "../../components/Layout"
+import Layout from "@/components/Layout"
 import styles from "../../styles/Projects.module.css"
-import ProjectCard from "../../components/ProjectCard"
+import ProjectCard from "@/components/ProjectCard"
 
 export default function Projects({ data }) {
   return (
