@@ -17,6 +17,7 @@
   --color-next: #000e1d;
   --color-js: #dce20c;
   --color-tailwind: #06b6d4;
+  --color-ts: #3178c6;
 }
 
 body {
@@ -65,5 +66,10 @@ a {
 
 .tailwind {
   background-color: var(--color-tailwind);
+  color: #000;
+}
+
+.typescript {
+  background-color: var(--color-ts);
   color: #000;
 }
