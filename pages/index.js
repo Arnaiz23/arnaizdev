@@ -1,10 +1,10 @@
 import style from "../styles/Home.module.css"
 import Head from "next/head"
 
-import TechStack from "../components/TechStack"
-import OptionsCardsHome from "../components/OptionsCardsHome"
-import HeaderHome from "../components/HeaderHome"
-import Layout from "../components/Layout"
+import TechStack from "@/components/TechStack"
+import OptionsCardsHome from "@/components/OptionsCardsHome"
+import HeaderHome from "@/components/HeaderHome"
+import Layout from "@/components/Layout"
 
 export default function Home({ frontend, backend, other }) {
   return (
