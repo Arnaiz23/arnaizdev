@@ -7,8 +7,12 @@
     "date" : "",
     "url": "",
     "languages": [
-      ""
+      {
+        "name": "",
+        "class": ""
+      }
     ],
-    "repositorie": ""
+    "repositorie": "",
+    "images" : []
   }
 ]
