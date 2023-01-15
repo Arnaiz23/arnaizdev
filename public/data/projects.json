@@ -89,5 +89,31 @@
       "/images/movies-light.png",
       "/images/movies-search.png"
     ]
+  },
+  {
+    "image": "/images/weather-home-b.png",
+    "name" : "Weather",
+    "short_description": "Aplicación del tiempo creada con React Native.",
+    "description": "Aplicación que devuelve el tiempo de una determinada localización que el usuario seleccione. Para el backend, he usado FastAPI.",
+    "date" : "2022",
+    "url": "",
+    "languages": [
+      {
+        "name": "React Native",
+        "class": "react"
+      },
+      {
+        "name": "JavaScript",
+        "class": "js"
+      }
+    ],
+    "repositorie": "https://github.com/Arnaiz23/weather-app",
+    "images" : [
+      "/images/weather-home-b.png",
+      "/images/weather-home-l.png",
+      "/images/weather-today.png",
+      "/images/weather-tomorrow.png",
+      "/images/weather-prox.png"
+    ]
   }
 ]
