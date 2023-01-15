@@ -71,6 +71,12 @@
   max-width: 100px;
 }
 
+.imagesContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
 @media screen and (max-width: 620px) {
   .containerRow {
     width: 100%;
