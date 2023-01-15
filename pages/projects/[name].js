@@ -65,7 +65,7 @@ export default function PageProject({
             </a>
           </div>
         </section>
-        <picture style={{ display: "flex", flexDirection: "column", gap: 20 }}>
+        <picture className={style.imagesContainer}>
           {images &&
             images.map((image) => (
               <Image
