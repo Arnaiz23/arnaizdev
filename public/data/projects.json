@@ -115,5 +115,40 @@
       "/images/weather-tomorrow.png",
       "/images/weather-prox.png"
     ]
+  },
+  {
+    "image": "/images/pokedex-home-dark.png",
+    "name" : "Pokedex",
+    "short_description": "Aplicación que muestra la pokedex",
+    "description": "Aplicación que devuelve los datos de los pokemons con la ayuda de la PokeAPI.",
+    "date" : "2023",
+    "url": "https://pokedex.arnaizdev.com/",
+    "languages": [
+      {
+        "name": "React",
+        "class": "react"
+      },
+      {
+        "name": "JavaScript",
+        "class": "js"
+      },
+      {
+        "name": "TailwindCSS",
+        "class": "tailwind"
+      },
+      {
+        "name": "TypeScript",
+        "class": "typescript"
+      }
+    ],
+    "repositorie": "https://github.com/Arnaiz23/pokedex",
+    "images" : [
+      "/images/pokedex-home-dark.png",
+      "/images/pokedex-more-dark.png",
+      "/images/pokedex-home-light.png",
+      "/images/pokedex-more-light.png",
+      "/images/pokedex-pokemon-dark.png",
+      "/images/pokedex-pokemon-light.png"
+    ]
   }
 ]
