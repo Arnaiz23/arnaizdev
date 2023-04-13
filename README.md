@@ -41,12 +41,3 @@ You can create your own portfolio by forking this project with this conditions:
 - Add a link to [my portfolio](https://arnaizdev.com)
 
 Check out [License](./License.md) for more detail.
-
----
-
-## Other information
-
-### SEO
-
-- Tool: https://search.google.com/u/1/search-console/welcome
-- Google analitics -> technically okey
