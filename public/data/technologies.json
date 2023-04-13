@@ -43,6 +43,10 @@
       {
         "name" : "ProyectoCliente",
         "url" : "https://github.com/Arnaiz23/ProyectoCliente"
+      },
+      {
+	"name": "Pokedex",
+	"url": "https://github.com/Arnaiz23/pokedex"
       }
     ],
     "courses": [
@@ -96,6 +100,10 @@
       {
         "name": "Netflix-Copia",
         "url": "https://github.com/Arnaiz23/Netflix-Copia"
+      },
+      {
+	"name": "Pokedex",
+	"url": "https://github.com/Arnaiz23/pokedex"
       }
     ],
     "courses": [
@@ -455,6 +463,10 @@
       {
         "name" : "Bloc Notes",
         "url" : "https://github.com/Arnaiz23/bloc-notes"
+      },
+      {
+	"name": "Pokedex",
+	"url": "https://github.com/Arnaiz23/pokedex"
       }
     ],
     "courses": [],
@@ -497,6 +509,10 @@
       {
         "name": "react-typescript",
         "url": "https://github.com/Arnaiz23/react-typescript"
+      },
+      {
+	"name": "Pokedex",
+	"url": "https://github.com/Arnaiz23/pokedex"
       }
     ],
     "courses": [
@@ -520,5 +536,17 @@
       }
     ],
     "stack": "frontend"
+  },
+  {
+    "name": "Cypress",
+    "icon": "cypress.svg",
+    "description": "Herramienta de testing para aplicaciones creadas con JavaScript. Esta basado en tests end-to-end. Actualmente la he utilizado en algún proyecto para realizar un test E2E. No he realizado ningún curso ya que solo lo he aprendido con la documentación oficial de la herramienta.",
+    "projects": [
+      {
+        "name": "Pokedex",
+        "url": "https://github.com/Arnaiz23/Pokedex"
+      }    ],
+    "courses": [],
+    "stack": "backend"
   }
 ]
