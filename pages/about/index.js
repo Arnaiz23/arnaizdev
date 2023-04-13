@@ -48,6 +48,11 @@ export default function AboutMe() {
               Actualmente he desarrollado algunos proyectos, tanto personales
               como para los Grados.
             </p>
+            <p>
+              Estoy en proceso de aprendizaje / mejora de mis habilidades con el
+              Inglés. Tengo el nivel suficiente para poder manejarme con las
+              documentaciones.
+            </p>
           </div>
         </article>
         <article className={style.containerText}>
