@@ -1,6 +1,7 @@
 import "../styles/globals.css"
 import Head from "next/head"
 import { Analytics } from "@vercel/analytics/react"
+import ButtonUp from "@/components/ButtonUp"
 
 export default function MyApp({ Component, pageProps }) {
   return (
@@ -25,6 +26,7 @@ export default function MyApp({ Component, pageProps }) {
         <meta name="robots" content="index" />
       </Head>
       <Component {...pageProps} />
+      <ButtonUp />
       <Analytics />
     </>
   )
