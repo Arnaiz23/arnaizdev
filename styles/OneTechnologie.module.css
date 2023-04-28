@@ -41,17 +41,35 @@
   align-items: center;
   justify-content: center;
   gap: 20px;
+  width: 80%;
 }
 
 .projectList {
   display: flex;
-  flex-direction: column;
+  gap: 20px;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
 }
 
 .projects > ul > li {
+  list-style: none;
   text-decoration: none;
   font-weight: bold;
   color: var(--secondary-green);
+}
+
+.listAnchor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.imageProject {
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 .courses {

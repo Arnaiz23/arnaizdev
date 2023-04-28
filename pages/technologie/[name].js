@@ -37,8 +37,22 @@ export default function OneTechnologie({
             <ul className={style.projectList}>
               {projects.map((project) => (
                 <li key={project.name}>
-                  <a href={project.url} target="_blank" rel="noreferrer">
-                    {project.name}
+                  <a
+                    href={project.url}
+                    target="_blank"
+                    rel="noreferrer"
+                    className={style.listAnchor}
+                  >
+                    <picture className={style.imageProject}>
+                      <img
+                        src={`/images/projects/${project.name.toLowerCase()}.png`}
+                        alt={`${project.name} preview`}
+                        width={300}
+                        height={170}
+                        style={{ objectFit: "cover" }}
+                      />
+                    </picture>
+                    <span>{project.name}</span>
                   </a>
                 </li>
               ))}
