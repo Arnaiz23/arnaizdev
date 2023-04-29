@@ -1,9 +1,10 @@
 import Head from "next/head"
 import Image from "next/image"
 
-import style from "../../styles/OneTechnologie.module.css"
-import Course from "../../components/course"
-import Layout from "../../components/Layout"
+import style from "@/styles/OneTechnologie.module.css"
+import Course from "@/components/course"
+import Layout from "@/components/Layout"
+import TechnologieProjectCard from "@/components/TechnologieProjectCard"
 
 export default function OneTechnologie({
   name,
@@ -36,25 +37,7 @@ export default function OneTechnologie({
 
             <ul className={style.projectList}>
               {projects.map((project) => (
-                <li key={project.name}>
-                  <a
-                    href={project.url}
-                    target="_blank"
-                    rel="noreferrer"
-                    className={style.listAnchor}
-                  >
-                    <picture className={style.imageProject}>
-                      <img
-                        src={`/images/projects/${project.name.toLowerCase()}.png`}
-                        alt={`${project.name} preview`}
-                        width={300}
-                        height={170}
-                        style={{ objectFit: "cover" }}
-                      />
-                    </picture>
-                    <span>{project.name}</span>
-                  </a>
-                </li>
+                <TechnologieProjectCard key={project.name} project={project} />
               ))}
             </ul>
           </section>

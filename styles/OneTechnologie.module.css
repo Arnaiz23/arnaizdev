@@ -52,26 +52,6 @@
   width: 100%;
 }
 
-.projects > ul > li {
-  list-style: none;
-  text-decoration: none;
-  font-weight: bold;
-  color: var(--secondary-green);
-}
-
-.listAnchor {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-}
-
-.imageProject {
-  border-radius: 10px;
-  overflow: hidden;
-}
-
 .courses {
   display: flex;
   align-items: center;
@@ -108,6 +88,38 @@
 .image {
   border-radius: 10px;
   background-color: #fff;
+}
+
+/* Technologie Project Card */
+.card {
+  list-style: none;
+  text-decoration: none;
+  font-weight: bold;
+  /* color: var(--secondary-green); */
+  color: #000;
+  background-color: #dedede;
+  border-radius: 10px;
+  overflow: hidden;
+  min-width: 320px;
+}
+
+.listAnchor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.headerCard {
+  padding: 10px;
+  background-color: var(--secondary-green);
+  width: 100%;
+  text-align: center;
+}
+
+.footerCard {
+  padding-bottom: 20px;
 }
 
 @media screen and (max-width: 800px) {
