@@ -79,30 +79,37 @@
     "projects": [
       {
         "name": "Contacts app nodeJS",
+	"preview" : "contacts_app_nodejs.png",
         "url": "https://github.com/Arnaiz23/contacts-app-nodejs"
       },
       {
         "name" : "Proyecto Docker Simple",
+	"preview" : "",
         "url": "https://github.com/Arnaiz23/ProyectoDockerSimple"
       },
       {
         "name": "TuManga",
+	"preview" : "tumanga.png",
         "url": "https://github.com/Arnaiz23/TuManga"
       },
       {
         "name": "Pokemons",
+	"preview" : "",
         "url": "https://github.com/Arnaiz23/Pokemons"
       },
       {
         "name": "Giffy",
+	"preview" : "",
         "url": "https://github.com/Arnaiz23/Giffy"
       },
       {
         "name": "Netflix-Copia",
+	"preview" : "",
         "url": "https://github.com/Arnaiz23/Netflix-Copia"
       },
       {
 	"name": "Pokedex",
+	"preview" : "",
 	"url": "https://github.com/Arnaiz23/pokedex"
       }
     ],
