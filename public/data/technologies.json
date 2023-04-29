@@ -38,16 +38,14 @@
     "projects": [
       {
         "name": "Music Player",
+	"preview" : "musicPlayer.png",
         "url": "https://github.com/Arnaiz23/MusicPlayer"
       },
       {
         "name" : "ProyectoCliente",
+	"preview" : "proyectoCliente.png",
         "url" : "https://github.com/Arnaiz23/ProyectoCliente"
-      },
-      {
-	"name": "Pokedex",
-	"url": "https://github.com/Arnaiz23/pokedex"
-      }
+      } 
     ],
     "courses": [
       {
@@ -78,14 +76,9 @@
     "Segundo 'Framework' de JavaScript aprendido. Actualmente es el que más uso para realizar mis frontends.",
     "projects": [
       {
-        "name": "Contacts app nodeJS",
-	"preview" : "contacts_app_nodejs.png",
-        "url": "https://github.com/Arnaiz23/contacts-app-nodejs"
-      },
-      {
-        "name" : "Proyecto Docker Simple",
-	"preview" : "",
-        "url": "https://github.com/Arnaiz23/ProyectoDockerSimple"
+	"name": "Pokedex",
+	"preview" : "pokedex.png",
+	"url": "https://github.com/Arnaiz23/pokedex"
       },
       {
         "name": "TuManga",
@@ -93,24 +86,29 @@
         "url": "https://github.com/Arnaiz23/TuManga"
       },
       {
+        "name": "Contacts app nodeJS",
+	"preview" : "contacts_app_nodejs.png",
+        "url": "https://github.com/Arnaiz23/contacts-app-nodejs"
+      },
+      {
+        "name" : "Proyecto Docker Simple",
+	"preview" : "proyectoDockerSimple.png",
+        "url": "https://github.com/Arnaiz23/ProyectoDockerSimple"
+      },
+      {
         "name": "Pokemons",
-	"preview" : "",
+	"preview" : "pokemons.png",
         "url": "https://github.com/Arnaiz23/Pokemons"
       },
       {
         "name": "Giffy",
-	"preview" : "",
+	"preview" : "giffy.png",
         "url": "https://github.com/Arnaiz23/Giffy"
       },
       {
         "name": "Netflix-Copia",
 	"preview" : "",
         "url": "https://github.com/Arnaiz23/Netflix-Copia"
-      },
-      {
-	"name": "Pokedex",
-	"preview" : "",
-	"url": "https://github.com/Arnaiz23/pokedex"
       }
     ],
     "courses": [
@@ -143,10 +141,12 @@
     "projects": [
       {
         "name": "ArnaizDev",
+	"preview" : "arnaizdev.png",
         "url": "http://github.com/Arnaiz23/arnaizdev"
       },
       {
         "name": "Devter",
+	"preview" : "devter.png",
         "url": "http://github.com/Arnaiz23/devter"
       }
     ],
@@ -190,14 +190,17 @@
     "projects": [
       {
         "name": "Contacts app nodeJS",
+	"preview" : "contacts_app_nodejs.png",
         "url": "https://github.com/Arnaiz23/contacts-app-nodejs"
       },
       {
         "name": "Proyecto Docker Simple",
+	"preview" : "proyectoDockerSimple.png",
         "url": "https://github.com/Arnaiz23/ProyectoDockerSimple"
       },
       {
         "name": "Netflix-Copia",
+	"preview" : "netflixCopia.png",
         "url": "https://github.com/Arnaiz23/Netflix-Copia"
       }
     ],
@@ -261,7 +264,13 @@
     "projects":[
       {
         "name" : "Rate respository app",
+	"preview" : "rateRepository.png",
         "url" : "https://github.com/Arnaiz23/rate-repository-app"
+      },
+      {
+        "name" : "Weather App",
+	"preview" : "weatherApp.png",
+        "url" : "https://github.com/Arnaiz23/weather-app"
       }
     ],
     "courses": [
@@ -282,18 +291,22 @@
     "projects":[
       {
         "name" : "Contacts app nodeJS",
+	"preview" : "contacts_app_nodejs.png",
         "url" : "https://github.com/Arnaiz23/contacts-app-nodejs"
       },
       {
         "name": "Proyecto Docker Simple",
+	"preview" : "proyectoDockerSimple.png",
         "url": "https://github.com/Arnaiz23/ProyectoDockerSimple"
       },
       {
         "name": "TuManga",
+	"preview" : "tumanga.png",
         "url": "https://github.com/Arnaiz23/TuManga"
       },
       {
         "name": "Netflix-Copia",
+	"preview" : "netflixCopia.png",
         "url": "https://github.com/Arnaiz23/Netflix-Copia"
       }
     ],
@@ -333,18 +346,22 @@
     "projects":[
       {
         "name" : "Contacts app nodeJS",
+	"preview" : "contacts_app_nodejs.png",
         "url" : "https://github.com/Arnaiz23/contacts-app-nodejs"
       },
       {
         "name": "Proyecto Docker Simple",
+	"preview" : "proyectoDockerSimple.png",
         "url": "https://github.com/Arnaiz23/ProyectoDockerSimple"
       },
       {
         "name": "TuManga",
+	"preview" : "tumanga.png",
         "url": "https://github.com/Arnaiz23/TuManga"
       },
       {
         "name": "Netflix-Copia",
+	"preview" : "netflixCopia.png",
         "url": "https://github.com/Arnaiz23/Netflix-Copia"
       }
     ],
@@ -384,14 +401,17 @@
     "projects":[
       {
         "name": "Proyecto Docker Simple",
+	"preview" : "proyectoDockerSimple.png",
         "url": "https://github.com/Arnaiz23/ProyectoDockerSimple"
       },
       {
         "name": "TuManga",
+	"preview" : "tumanga.png",
         "url": "https://github.com/Arnaiz23/TuManga"
       },
       {
         "name": "Netflix-Copia",
+	"preview" : "netflixCopia.png",
         "url": "https://github.com/Arnaiz23/Netflix-Copia"
       }
     ],
@@ -413,6 +433,7 @@
     "projects":[
       {
         "name" : "Contacts app nodeJS",
+	"preview" : "contacts_app_nodejs.png",
         "url" : "https://github.com/Arnaiz23/contacts-app-nodejs"
       }
     ],
@@ -453,7 +474,7 @@
     "courses": [
       {
         "name": "Aprendiendo a PROGRAMAR en PYTHON Desde Cero",
-        "description": "Aprender Python desde cero. Serie de directos de MoureDevAprende SQL ahora! curso completo gratis desde cero",
+        "description": "Aprender Python desde cero. Serie de directos de MoureDev. Aprende SQL ahora! curso completo gratis desde cero",
         "url": "https://www.twitch.tv/videos/1551265068?filter=archives&sort=time",
         "image": "course-twitch.svg"
       }
@@ -469,10 +490,12 @@
     "projects":[
       {
         "name" : "Bloc Notes",
+	"preview" : "blocNotes.png",
         "url" : "https://github.com/Arnaiz23/bloc-notes"
       },
       {
 	"name": "Pokedex",
+	"preview" : "pokedex.png",
 	"url": "https://github.com/Arnaiz23/pokedex"
       }
     ],
@@ -487,10 +510,12 @@
     "projects":[
       {
         "name" : "Bloc Notes",
+	"preview" : "blocNotes.png",
         "url" : "https://github.com/Arnaiz23/bloc-notes"
       },
       {
         "name": "TuManga",
+	"preview" : "tumanga.png",
         "url": "https://github.com/Arnaiz23/TuManga"
       }
     ],
@@ -511,14 +536,17 @@
     "projects": [
       {
         "name": "movie-project",
+	"preview" : "movieProject.png",
         "url": "https://github.com/Arnaiz23/movie-project"
       },
       {
         "name": "react-typescript",
+	"preview" : "reactTypescript.png",
         "url": "https://github.com/Arnaiz23/react-typescript"
       },
       {
 	"name": "Pokedex",
+	"preview" : "pokedex.png",
 	"url": "https://github.com/Arnaiz23/pokedex"
       }
     ],
@@ -551,8 +579,10 @@
     "projects": [
       {
         "name": "Pokedex",
+	"preview" : "pokedex.png",
         "url": "https://github.com/Arnaiz23/Pokedex"
-      }    ],
+      }  
+    ],
     "courses": [],
     "stack": "backend"
   }
