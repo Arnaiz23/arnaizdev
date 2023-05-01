@@ -60,10 +60,16 @@
   align-items: center;
 }
 
+.linkLanguage {
+  width: max-content;
+  display: inline-block;
+}
+
 .tagLanguage {
   padding: 5px 10px;
   border-radius: 10px;
-  width: max-content;
+  /* width: max-content; */
+  width: 100%;
 }
 
 .pictureProject {

@@ -4,6 +4,16 @@ import Layout from "../../components/Layout"
 
 import style from "../../styles/OneProject.module.css"
 
+const TECHNOLOGIES_URL = {
+  React: "https://react.dev/",
+  NodeJS: "https://nodejs.org/en",
+  MongoDB: "https://www.mongodb.com/",
+  "Tailwind CSS": "https://tailwindcss.com/",
+  TypeScript: "https://www.typescriptlang.org/",
+  JavaScript: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+  "React Native": "https://reactnative.dev/",
+}
+
 export default function PageProject({
   name,
   description,
@@ -44,12 +54,17 @@ export default function PageProject({
             <h3>Lenguajes</h3>
             <div className={style.projectLanguages}>
               {languages.map(({ name, class: classLang }) => (
-                <span
-                  className={`${style.tagLanguage} ${classLang}`}
+                <a
+                  href={TECHNOLOGIES_URL[name]}
                   key={name}
+                  target="_blank"
+                  rel="noreferrer"
+                  className={style.linkLanguage}
                 >
-                  {name}
-                </span>
+                  <span className={`${style.tagLanguage} ${classLang}`}>
+                    {name}
+                  </span>
+                </a>
               ))}
             </div>
           </div>
