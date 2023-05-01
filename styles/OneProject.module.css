@@ -55,7 +55,7 @@
 
 .projectLanguages {
   display: flex;
-  gap: 10px;
+  gap: 15px;
   justify-content: space-evenly;
   align-items: center;
 }
@@ -85,7 +85,13 @@
 
 @media screen and (max-width: 620px) {
   .containerRow {
-    width: 100%;
+    width: 90%;
+    flex-wrap: wrap;
+    margin: auto;
+  }
+
+  .projectLanguages {
+    justify-content: flex-start;
     flex-wrap: wrap;
   }
 }
