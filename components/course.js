@@ -8,7 +8,7 @@ export default function Course({ course }) {
       <a href={course.url} target="_blank" rel="noreferrer">
         <picture>
           <Image
-            src={`/images/${course.image}`}
+            src={`/images/courses/${course.image}`}
             alt={course.name}
             width={300}
             height={200}

@@ -69,7 +69,7 @@ export default function PageProject({
           {images &&
             images.map((image) => (
               <Image
-                src={image}
+                src={`/images/projects/${image}`}
                 width={1528}
                 height={850}
                 className={style.pictureProject}

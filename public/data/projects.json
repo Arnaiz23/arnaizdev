@@ -1,6 +1,6 @@
 [
   {
-    "image": "/images/TuManga.png",
+    "image": "TuManga.png",
     "name" : "TuManga",
     "short_description": "Tienda online sobre mangas, novelas ligeras y merchandising",
     "description": "Aplicación web creada para el TFG del Grado Superior de Desarrollo de Aplicaciones Web. La idea era formar una web para una tienda online en la que se vendería mangas, novelas ligeras y merchandising relacionado.",
@@ -22,12 +22,12 @@
     ],
     "repositorie": "https://github.com/Arnaiz23/TuManga",
     "images" : [
-      "/images/TuManga.png",
-      "/images/tumanga-platform.png"
+      "TuManga.png",
+      "tumanga-platform.png"
     ]
   }, 
   {
-    "image": "/images/dark-mode.png",
+    "image": "notes-dark.png",
     "name" : "Bloc Notes",
     "short_description": "Aplicación personal para tomar notas",
     "description": "Aplicación creada para poder recoger mis notas y poder acceder a ellas desde cualquier dispositivo. Este proyecto cuenta con un backend y frontend.",
@@ -53,12 +53,12 @@
     ],
     "repositorie": "https://github.com/Arnaiz23/bloc-notes",
     "images" : [
-      "/images/dark-mode.png",
-      "/images/light-mode.png"
+      "notes-dark.png",
+      "notes-light.png"
     ]
   },
   {
-    "image": "/images/movies-dark.png",
+    "image": "movies-dark.png",
     "name" : "Movies",
     "short_description": "Página web al estilo de IMDB.",
     "description": "Página web estilo IMDB creada principalmente para aprender y poner en práctica lo aprendido con TypeScript tanto en Backend como Frontend.",
@@ -84,14 +84,14 @@
     ],
     "repositorie": "https://github.com/Arnaiz23/movie-project",
     "images" : [
-      "/images/one-movie.png",
-      "/images/movies-dark.png",
-      "/images/movies-light.png",
-      "/images/movies-search.png"
+      "one-movie.png",
+      "movies-dark.png",
+      "movies-light.png",
+      "movies-search.png"
     ]
   },
   {
-    "image": "/images/weather-home-b.png",
+    "image": "weather-home-b.png",
     "name" : "Weather",
     "short_description": "Aplicación del tiempo creada con React Native.",
     "description": "Aplicación que devuelve el tiempo de una determinada localización que el usuario seleccione. Para el backend, he usado FastAPI.",
@@ -109,15 +109,15 @@
     ],
     "repositorie": "https://github.com/Arnaiz23/weather-app",
     "images" : [
-      "/images/weather-home-b.png",
-      "/images/weather-home-l.png",
-      "/images/weather-today.png",
-      "/images/weather-tomorrow.png",
-      "/images/weather-prox.png"
+      "weather-home-b.png",
+      "weather-home-l.png",
+      "weather-today.png",
+      "weather-tomorrow.png",
+      "weather-prox.png"
     ]
   },
   {
-    "image": "/images/pokedex-home-dark.png",
+    "image": "pokedex-home-dark.png",
     "name" : "Pokedex",
     "short_description": "Aplicación que muestra la pokedex",
     "description": "Aplicación que devuelve los datos de los pokemons con la ayuda de la PokeAPI.",
@@ -143,12 +143,12 @@
     ],
     "repositorie": "https://github.com/Arnaiz23/pokedex",
     "images" : [
-      "/images/pokedex-home-dark.png",
-      "/images/pokedex-more-dark.png",
-      "/images/pokedex-home-light.png",
-      "/images/pokedex-more-light.png",
-      "/images/pokedex-pokemon-dark.png",
-      "/images/pokedex-pokemon-light.png"
+      "pokedex-home-dark.png",
+      "pokedex-more-dark.png",
+      "pokedex-home-light.png",
+      "pokedex-more-light.png",
+      "pokedex-pokemon-dark.png",
+      "pokedex-pokemon-light.png"
     ]
   }
 ]

@@ -12,7 +12,7 @@ export default function TechnologieProjectCard({ project }) {
         <header className={style.headerCard}>
           <picture>
             <img
-              src={`/images/projects/${project.preview}`}
+              src={`/images/previews/${project.preview}`}
               alt={`${project.name} preview`}
               width={300}
               height={170}

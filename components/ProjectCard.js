@@ -9,7 +9,7 @@ export default function ProjectCard({ project }) {
       <section className={style.projectContainer}>
         <picture>
           <Image
-            src={project.image}
+            src={`/images/projects/${project.image}`}
             alt={project.name}
             width={300}
             height={170}

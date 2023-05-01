@@ -19,7 +19,7 @@ export default function TechStack({ title, line, elements }) {
             <Link href={`/technologie/${name}`} key={name}>
               <picture className={style.iconTech} title={name}>
                 <Image
-                  src={`/images/${icon}`}
+                  src={`/images/technologies/${icon}`}
                   width={100}
                   height={100}
                   alt={`${name} icon`}
