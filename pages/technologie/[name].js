@@ -12,6 +12,7 @@ export default function OneTechnologie({
   projects,
   courses,
   icon,
+  docs,
 }) {
   return (
     <Layout>
@@ -28,7 +29,19 @@ export default function OneTechnologie({
           />
           <h2>{name}</h2>
         </header>
-        <p>{description}</p>
+        <p>
+          {description}{" "}
+          {docs.length > 0 && (
+            <a
+              href={docs}
+              target="_blank"
+              rel="noreferrer"
+              style={{ textDecoration: "underline" }}
+            >
+              Click para ver la documentación.
+            </a>
+          )}
+        </p>
         {projects.length > 0 && (
           <section className={style.projects}>
             <header>

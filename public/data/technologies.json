@@ -4,6 +4,7 @@
     "icon": "html.svg",
     "description":
     "Es el primer lenguaje que aprendi. La primera vez que lo toque fue en segundo de Grado Medio. Gracias a conocer HTML, CSS y JS decidi ir por la rama de la programación web",
+    "docs" : "https://developer.mozilla.org/en-US/docs/Web/HTML",
     "projects": [],
     "courses": [
       {
@@ -19,6 +20,7 @@
     "name": "CSS",
     "icon": "css.svg",
     "description": "Al igual que HTML, es el primer lenguaje que aprendi",
+    "docs" : "https://developer.mozilla.org/en-US/docs/Web/CSS",
     "projects": [],
     "courses": [
       {
@@ -35,6 +37,7 @@
     "icon": "js.svg",
     "description":
     "Primer lenguaje de lógica que aprendi. Actualmente es el lenguaje que más utilizo y más me gusta.",
+    "docs" : "https://developer.mozilla.org/en-us/docs/web/javascript",
     "projects": [
       {
         "name": "Music Player",
@@ -74,6 +77,7 @@
     "icon": "react.svg",
     "description":
     "Segundo 'Framework' de JavaScript aprendido. Actualmente es el que más uso para realizar mis frontends.",
+    "docs" : "https://react.dev/",
     "projects": [
       {
 	"name": "Pokedex",
@@ -138,6 +142,7 @@
     "icon": "nextjs.svg",
     "description":
     "Framework que utiliza React. Con este framework he creado dicho Portfolio.",
+    "docs" : "https://nextjs.org/docs",
     "projects": [
       {
         "name": "ArnaizDev",
@@ -165,6 +170,7 @@
     "icon": "git.svg",
     "description":
     "Control de versiones necesario para poder trabajar facilmente con los proyectos",
+    "docs" : "https://git-scm.com/doc",
     "projects": [],
     "courses": [
       {
@@ -187,6 +193,7 @@
     "icon": "docker.svg",
     "description":
     "Software basado en contenedores para poder crear proyectos más facilmente. Lo he usado varias veces para utilizar los proyectos a nivel más realista. Tambien lo uso bastante para hacer pruebas para las terminales y algun contenedor suelto.",
+    "docs" : "https://docs.docker.com/",
     "projects": [
       {
         "name": "Contacts app nodeJS",
@@ -232,6 +239,7 @@
     "icon": "terminal.svg",
     "description":
     "Software basado en contenedores para poder crear proyectos más facilmente. Lo he usado varias veces para utilizar los proyectos a nivel más realista. Tambien lo uso bastante para hacer pruebas para las terminales y algun contenedor suelto.",
+    "docs" : "",
     "projects": [],
     "courses": [
       {
@@ -261,6 +269,7 @@
     "icon": "react.svg",
     "description":
     "Lenguaje aprendido para poder crear aplicaciones móviles,",
+    "docs" : "https://reactnative.dev/",
     "projects":[
       {
         "name" : "Rate respository app",
@@ -288,6 +297,7 @@
     "icon": "node.svg",
     "description":
     "Lenguaje que más utilizo para crear backends. Utiliza JavaScript.",
+    "docs" : "https://nodejs.org/en",
     "projects":[
       {
         "name" : "Contacts app nodeJS",
@@ -343,6 +353,7 @@
     "icon": "express.svg",
     "description":
     "Framework de NodeJS.",
+    "docs" : "https://expressjs.com/",
     "projects":[
       {
         "name" : "Contacts app nodeJS",
@@ -398,6 +409,7 @@
     "icon": "mongo.svg",
     "description":
     "Base de Datos no relacional. Es la que más uso ya que me resulta más sencillo usarlo con MongoDB",
+    "docs" : "https://www.mongodb.com/",
     "projects":[
       {
         "name": "Proyecto Docker Simple",
@@ -430,6 +442,7 @@
     "icon": "mysql.svg",
     "description":
     "Base de Datos relacional.",
+    "docs" : "https://dev.mysql.com/doc/",
     "projects":[
       {
         "name" : "Contacts app nodeJS",
@@ -452,6 +465,7 @@
     "icon": "nginx.svg",
     "description":
     "Servidor Web que más uso. Aprendido en el Grado Superior e investigando",
+    "docs" : "https://nginx.org/en/docs/",
     "projects": [],
     "courses": [],
     "stack": "other"
@@ -461,6 +475,7 @@
     "icon": "apache.svg",
     "description":
     "Servidor Web secundario. Aprendido en el Grado Superior e investigando",
+    "docs" : "https://httpd.apache.org/docs/",
     "projects": [],
     "courses": [],
     "stack": "other"
@@ -470,6 +485,7 @@
     "icon": "python.svg",
     "description":
     "Lenguaje para el lado del backend. Actualmente estoy en proceso de aprenderlo.",
+    "docs" : "https://docs.python.org/3/",
     "projects": [],
     "courses": [
       {
@@ -487,6 +503,7 @@
     "icon": "tailwind.svg",
     "description":
     "Framework de CSS.",
+    "docs" : "https://tailwindcss.com/",
     "projects":[
       {
         "name" : "Bloc Notes",
@@ -507,6 +524,7 @@
     "icon": "jest.svg",
     "description":
     "Tester de aplicaciones javascript.",
+    "docs" : "https://jestjs.io/docs/getting-started",
     "projects":[
       {
         "name" : "Bloc Notes",
@@ -533,6 +551,7 @@
     "name": "TypeScript",
     "icon": "typescript.svg",
     "description": "JavaScript tipificado. Lo he aprendido recientemente ya que facilita la creación de código, además de que a nivel profesional se utiliza mucho.",
+    "docs" : "https://www.typescriptlang.org/",
     "projects": [
       {
         "name": "movie-project",
@@ -576,6 +595,7 @@
     "name": "Cypress",
     "icon": "cypress.svg",
     "description": "Herramienta de testing para aplicaciones creadas con JavaScript. Esta basado en tests end-to-end. Actualmente la he utilizado en algún proyecto para realizar un test E2E. No he realizado ningún curso ya que solo lo he aprendido con la documentación oficial de la herramienta.",
+    "docs" : "https://docs.cypress.io/guides/overview/why-cypress",
     "projects": [
       {
         "name": "Pokedex",
