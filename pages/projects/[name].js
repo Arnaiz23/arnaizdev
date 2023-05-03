@@ -3,16 +3,7 @@ import Head from "next/head"
 import Layout from "../../components/Layout"
 
 import style from "../../styles/OneProject.module.css"
-
-const TECHNOLOGIES_URL = {
-  React: "https://react.dev/",
-  NodeJS: "https://nodejs.org/en",
-  MongoDB: "https://www.mongodb.com/",
-  "Tailwind CSS": "https://tailwindcss.com/",
-  TypeScript: "https://www.typescriptlang.org/",
-  JavaScript: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
-  "React Native": "https://reactnative.dev/",
-}
+import Link from "next/link"
 
 export default function PageProject({
   name,
@@ -54,17 +45,11 @@ export default function PageProject({
             <h3>Lenguajes</h3>
             <div className={style.projectLanguages}>
               {languages.map(({ name, class: classLang }) => (
-                <a
-                  href={TECHNOLOGIES_URL[name]}
-                  key={name}
-                  target="_blank"
-                  rel="noreferrer"
-                  className={style.linkLanguage}
-                >
+                <Link href={`/technologie/${name}`} key={name}>
                   <span className={`${style.tagLanguage} ${classLang}`}>
                     {name}
                   </span>
-                </a>
+                </Link>
               ))}
             </div>
           </div>
