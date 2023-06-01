@@ -33,6 +33,7 @@ export default function ButtonUp() {
     <button
       className={`${styles.button} ${showButton ? styles.visible : ""}`}
       onClick={scrollToTop}
+      aria-label="Up"
     >
       <ArrowUpIcon />
     </button>
