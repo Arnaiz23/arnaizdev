@@ -2,9 +2,8 @@
   {
     "name": "HTML",
     "icon": "html.svg",
-    "description":
-    "Es el primer lenguaje que aprendi. La primera vez que lo toque fue en segundo de Grado Medio. Gracias a conocer HTML, CSS y JS decidi ir por la rama de la programación web",
-    "docs" : "https://developer.mozilla.org/en-US/docs/Web/HTML",
+    "description": "Es el primer lenguaje que aprendi. La primera vez que lo toque fue en segundo de Grado Medio. Gracias a conocer HTML, CSS y JS decidi ir por la rama de la programación web",
+    "docs": "https://developer.mozilla.org/en-US/docs/Web/HTML",
     "projects": [],
     "courses": [
       {
@@ -20,7 +19,7 @@
     "name": "CSS",
     "icon": "css.svg",
     "description": "Al igual que HTML, es el primer lenguaje que aprendi",
-    "docs" : "https://developer.mozilla.org/en-US/docs/Web/CSS",
+    "docs": "https://developer.mozilla.org/en-US/docs/Web/CSS",
     "projects": [],
     "courses": [
       {
@@ -35,20 +34,19 @@
   {
     "name": "JavaScript",
     "icon": "js.svg",
-    "description":
-    "Primer lenguaje de lógica que aprendi. Actualmente es el lenguaje que más utilizo y más me gusta.",
-    "docs" : "https://developer.mozilla.org/en-us/docs/web/javascript",
+    "description": "Primer lenguaje de lógica que aprendi. Actualmente es el lenguaje que más utilizo y más me gusta.",
+    "docs": "https://developer.mozilla.org/en-us/docs/web/javascript",
     "projects": [
       {
         "name": "Music Player",
-	"preview" : "musicPlayer.png",
+        "preview": "musicPlayer.png",
         "url": "https://github.com/Arnaiz23/MusicPlayer"
       },
       {
-        "name" : "ProyectoCliente",
-	"preview" : "proyectoCliente.png",
-        "url" : "https://github.com/Arnaiz23/ProyectoCliente"
-      } 
+        "name": "ProyectoCliente",
+        "preview": "proyectoCliente.png",
+        "url": "https://github.com/Arnaiz23/ProyectoCliente"
+      }
     ],
     "courses": [
       {
@@ -75,43 +73,42 @@
   {
     "name": "React",
     "icon": "react.svg",
-    "description":
-    "Segundo 'Framework' de JavaScript aprendido. Actualmente es el que más uso para realizar mis frontends.",
-    "docs" : "https://react.dev/",
+    "description": "Segundo 'Framework' de JavaScript aprendido. Actualmente es el que más uso para realizar mis frontends.",
+    "docs": "https://react.dev/",
     "projects": [
       {
-	"name": "Pokedex",
-	"preview" : "pokedex.png",
-	"url": "https://github.com/Arnaiz23/pokedex"
+        "name": "Pokedex",
+        "preview": "pokedex.png",
+        "url": "https://github.com/Arnaiz23/pokedex"
       },
       {
         "name": "TuManga",
-	"preview" : "tumanga.png",
+        "preview": "tumanga.png",
         "url": "https://github.com/Arnaiz23/TuManga"
       },
       {
         "name": "Contacts app nodeJS",
-	"preview" : "contacts_app_nodejs.png",
+        "preview": "contacts_app_nodejs.png",
         "url": "https://github.com/Arnaiz23/contacts-app-nodejs"
       },
       {
-        "name" : "Proyecto Docker Simple",
-	"preview" : "proyectoDockerSimple.png",
+        "name": "Proyecto Docker Simple",
+        "preview": "proyectoDockerSimple.png",
         "url": "https://github.com/Arnaiz23/ProyectoDockerSimple"
       },
       {
         "name": "Pokemons",
-	"preview" : "pokemons.png",
+        "preview": "pokemons.png",
         "url": "https://github.com/Arnaiz23/Pokemons"
       },
       {
         "name": "Giffy",
-	"preview" : "giffy.png",
+        "preview": "giffy.png",
         "url": "https://github.com/Arnaiz23/Giffy"
       },
       {
         "name": "Netflix-Copia",
-	"preview" : "",
+        "preview": "",
         "url": "https://github.com/Arnaiz23/Netflix-Copia"
       }
     ],
@@ -140,18 +137,17 @@
   {
     "name": "NextJS",
     "icon": "nextjs.svg",
-    "description":
-    "Framework que utiliza React. Con este framework he creado dicho Portfolio.",
-    "docs" : "https://nextjs.org/docs",
+    "description": "Framework que utiliza React. Con este framework he creado dicho Portfolio.",
+    "docs": "https://nextjs.org/docs",
     "projects": [
       {
         "name": "ArnaizDev",
-	"preview" : "arnaizdev.png",
+        "preview": "arnaizdev.png",
         "url": "http://github.com/Arnaiz23/arnaizdev"
       },
       {
         "name": "Devter",
-	"preview" : "devter.png",
+        "preview": "devter.png",
         "url": "http://github.com/Arnaiz23/devter"
       }
     ],
@@ -168,9 +164,8 @@
   {
     "name": "Git",
     "icon": "git.svg",
-    "description":
-    "Control de versiones necesario para poder trabajar facilmente con los proyectos",
-    "docs" : "https://git-scm.com/doc",
+    "description": "Control de versiones necesario para poder trabajar facilmente con los proyectos",
+    "docs": "https://git-scm.com/doc",
     "projects": [],
     "courses": [
       {
@@ -191,23 +186,22 @@
   {
     "name": "Docker",
     "icon": "docker.svg",
-    "description":
-    "Software basado en contenedores para poder crear proyectos más facilmente. Lo he usado varias veces para utilizar los proyectos a nivel más realista. Tambien lo uso bastante para hacer pruebas para las terminales y algun contenedor suelto.",
-    "docs" : "https://docs.docker.com/",
+    "description": "Software basado en contenedores para poder crear proyectos más facilmente. Lo he usado varias veces para utilizar los proyectos a nivel más realista. Tambien lo uso bastante para hacer pruebas para las terminales y algun contenedor suelto.",
+    "docs": "https://docs.docker.com/",
     "projects": [
       {
         "name": "Contacts app nodeJS",
-	"preview" : "contacts_app_nodejs.png",
+        "preview": "contacts_app_nodejs.png",
         "url": "https://github.com/Arnaiz23/contacts-app-nodejs"
       },
       {
         "name": "Proyecto Docker Simple",
-	"preview" : "proyectoDockerSimple.png",
+        "preview": "proyectoDockerSimple.png",
         "url": "https://github.com/Arnaiz23/ProyectoDockerSimple"
       },
       {
         "name": "Netflix-Copia",
-	"preview" : "netflixCopia.png",
+        "preview": "netflixCopia.png",
         "url": "https://github.com/Arnaiz23/Netflix-Copia"
       }
     ],
@@ -226,8 +220,7 @@
       },
       {
         "name": "Docker & Nodejs. Aplicación de NodeJS en Docker Container",
-        "description":
-        "Curso para aprender a utilizar una aplicación desarrollada con nodejs en Docker",
+        "description": "Curso para aprender a utilizar una aplicación desarrollada con nodejs en Docker",
         "url": "https://www.youtube.com/watch?v=iLlmm0L-VpQ&t=1332s",
         "image": "course-yt.svg"
       }
@@ -237,9 +230,8 @@
   {
     "name": "Terminal",
     "icon": "terminal.svg",
-    "description":
-    "Software basado en contenedores para poder crear proyectos más facilmente. Lo he usado varias veces para utilizar los proyectos a nivel más realista. Tambien lo uso bastante para hacer pruebas para las terminales y algun contenedor suelto.",
-    "docs" : "",
+    "description": "Software basado en contenedores para poder crear proyectos más facilmente. Lo he usado varias veces para utilizar los proyectos a nivel más realista. Tambien lo uso bastante para hacer pruebas para las terminales y algun contenedor suelto.",
+    "docs": "",
     "projects": [],
     "courses": [
       {
@@ -256,8 +248,7 @@
       },
       {
         "name": "Docker & Nodejs. Aplicación de NodeJS en Docker Container",
-        "description":
-        "Curso para aprender a utilizar una aplicación desarrollada con nodejs en Docker",
+        "description": "Curso para aprender a utilizar una aplicación desarrollada con nodejs en Docker",
         "url": "https://www.youtube.com/watch?v=iLlmm0L-VpQ&t=1332s",
         "image": "course-yt.svg"
       }
@@ -267,19 +258,18 @@
   {
     "name": "React Native",
     "icon": "react.svg",
-    "description":
-    "Lenguaje aprendido para poder crear aplicaciones móviles,",
-    "docs" : "https://reactnative.dev/",
-    "projects":[
+    "description": "Lenguaje aprendido para poder crear aplicaciones móviles,",
+    "docs": "https://reactnative.dev/",
+    "projects": [
       {
-        "name" : "Rate respository app",
-	"preview" : "rateRepository.png",
-        "url" : "https://github.com/Arnaiz23/rate-repository-app"
+        "name": "Rate respository app",
+        "preview": "rateRepository.png",
+        "url": "https://github.com/Arnaiz23/rate-repository-app"
       },
       {
-        "name" : "Weather App",
-	"preview" : "weatherApp.png",
-        "url" : "https://github.com/Arnaiz23/weather-app"
+        "name": "Weather App",
+        "preview": "weatherApp.png",
+        "url": "https://github.com/Arnaiz23/weather-app"
       }
     ],
     "courses": [
@@ -295,28 +285,27 @@
   {
     "name": "NodeJS",
     "icon": "node.svg",
-    "description":
-    "Lenguaje que más utilizo para crear backends. Utiliza JavaScript.",
-    "docs" : "https://nodejs.org/en",
-    "projects":[
+    "description": "Lenguaje que más utilizo para crear backends. Utiliza JavaScript.",
+    "docs": "https://nodejs.org/en",
+    "projects": [
       {
-        "name" : "Contacts app nodeJS",
-	"preview" : "contacts_app_nodejs.png",
-        "url" : "https://github.com/Arnaiz23/contacts-app-nodejs"
+        "name": "Contacts app nodeJS",
+        "preview": "contacts_app_nodejs.png",
+        "url": "https://github.com/Arnaiz23/contacts-app-nodejs"
       },
       {
         "name": "Proyecto Docker Simple",
-	"preview" : "proyectoDockerSimple.png",
+        "preview": "proyectoDockerSimple.png",
         "url": "https://github.com/Arnaiz23/ProyectoDockerSimple"
       },
       {
         "name": "TuManga",
-	"preview" : "tumanga.png",
+        "preview": "tumanga.png",
         "url": "https://github.com/Arnaiz23/TuManga"
       },
       {
         "name": "Netflix-Copia",
-	"preview" : "netflixCopia.png",
+        "preview": "netflixCopia.png",
         "url": "https://github.com/Arnaiz23/Netflix-Copia"
       }
     ],
@@ -351,28 +340,27 @@
   {
     "name": "Express",
     "icon": "express.svg",
-    "description":
-    "Framework de NodeJS.",
-    "docs" : "https://expressjs.com/",
-    "projects":[
+    "description": "Framework de NodeJS.",
+    "docs": "https://expressjs.com/",
+    "projects": [
       {
-        "name" : "Contacts app nodeJS",
-	"preview" : "contacts_app_nodejs.png",
-        "url" : "https://github.com/Arnaiz23/contacts-app-nodejs"
+        "name": "Contacts app nodeJS",
+        "preview": "contacts_app_nodejs.png",
+        "url": "https://github.com/Arnaiz23/contacts-app-nodejs"
       },
       {
         "name": "Proyecto Docker Simple",
-	"preview" : "proyectoDockerSimple.png",
+        "preview": "proyectoDockerSimple.png",
         "url": "https://github.com/Arnaiz23/ProyectoDockerSimple"
       },
       {
         "name": "TuManga",
-	"preview" : "tumanga.png",
+        "preview": "tumanga.png",
         "url": "https://github.com/Arnaiz23/TuManga"
       },
       {
         "name": "Netflix-Copia",
-	"preview" : "netflixCopia.png",
+        "preview": "netflixCopia.png",
         "url": "https://github.com/Arnaiz23/Netflix-Copia"
       }
     ],
@@ -407,23 +395,22 @@
   {
     "name": "MongoDB",
     "icon": "mongo.svg",
-    "description":
-    "Base de Datos no relacional. Es la que más uso ya que me resulta más sencillo usarlo con MongoDB",
-    "docs" : "https://www.mongodb.com/",
-    "projects":[
+    "description": "Base de Datos no relacional. Es la que más uso ya que me resulta más sencillo usarlo con MongoDB",
+    "docs": "https://www.mongodb.com/",
+    "projects": [
       {
         "name": "Proyecto Docker Simple",
-	"preview" : "proyectoDockerSimple.png",
+        "preview": "proyectoDockerSimple.png",
         "url": "https://github.com/Arnaiz23/ProyectoDockerSimple"
       },
       {
         "name": "TuManga",
-	"preview" : "tumanga.png",
+        "preview": "tumanga.png",
         "url": "https://github.com/Arnaiz23/TuManga"
       },
       {
         "name": "Netflix-Copia",
-	"preview" : "netflixCopia.png",
+        "preview": "netflixCopia.png",
         "url": "https://github.com/Arnaiz23/Netflix-Copia"
       }
     ],
@@ -440,14 +427,13 @@
   {
     "name": "MySQL",
     "icon": "mysql.svg",
-    "description":
-    "Base de Datos relacional.",
-    "docs" : "https://dev.mysql.com/doc/",
-    "projects":[
+    "description": "Base de Datos relacional.",
+    "docs": "https://dev.mysql.com/doc/",
+    "projects": [
       {
-        "name" : "Contacts app nodeJS",
-	"preview" : "contacts_app_nodejs.png",
-        "url" : "https://github.com/Arnaiz23/contacts-app-nodejs"
+        "name": "Contacts app nodeJS",
+        "preview": "contacts_app_nodejs.png",
+        "url": "https://github.com/Arnaiz23/contacts-app-nodejs"
       }
     ],
     "courses": [
@@ -463,9 +449,8 @@
   {
     "name": "Nginx",
     "icon": "nginx.svg",
-    "description":
-    "Servidor Web que más uso. Aprendido en el Grado Superior e investigando",
-    "docs" : "https://nginx.org/en/docs/",
+    "description": "Servidor Web que más uso. Aprendido en el Grado Superior e investigando",
+    "docs": "https://nginx.org/en/docs/",
     "projects": [],
     "courses": [],
     "stack": "other"
@@ -473,9 +458,8 @@
   {
     "name": "Apache",
     "icon": "apache.svg",
-    "description":
-    "Servidor Web secundario. Aprendido en el Grado Superior e investigando",
-    "docs" : "https://httpd.apache.org/docs/",
+    "description": "Servidor Web secundario. Aprendido en el Grado Superior e investigando",
+    "docs": "https://httpd.apache.org/docs/",
     "projects": [],
     "courses": [],
     "stack": "other"
@@ -483,9 +467,8 @@
   {
     "name": "Python",
     "icon": "python.svg",
-    "description":
-    "Lenguaje para el lado del backend. Actualmente estoy en proceso de aprenderlo.",
-    "docs" : "https://docs.python.org/3/",
+    "description": "Lenguaje para el lado del backend. Actualmente estoy en proceso de aprenderlo.",
+    "docs": "https://docs.python.org/3/",
     "projects": [],
     "courses": [
       {
@@ -494,26 +477,24 @@
         "url": "https://www.twitch.tv/videos/1551265068?filter=archives&sort=time",
         "image": "course-twitch.svg"
       }
-
     ],
     "stack": "backend"
   },
   {
     "name": "TailwindCSS",
     "icon": "tailwind.svg",
-    "description":
-    "Framework de CSS.",
-    "docs" : "https://tailwindcss.com/",
-    "projects":[
+    "description": "Framework de CSS.",
+    "docs": "https://tailwindcss.com/",
+    "projects": [
       {
-        "name" : "Bloc Notes",
-	"preview" : "blocNotes.png",
-        "url" : "https://github.com/Arnaiz23/bloc-notes"
+        "name": "Bloc Notes",
+        "preview": "blocNotes.png",
+        "url": "https://github.com/Arnaiz23/bloc-notes"
       },
       {
-	"name": "Pokedex",
-	"preview" : "pokedex.png",
-	"url": "https://github.com/Arnaiz23/pokedex"
+        "name": "Pokedex",
+        "preview": "pokedex.png",
+        "url": "https://github.com/Arnaiz23/pokedex"
       }
     ],
     "courses": [],
@@ -522,18 +503,17 @@
   {
     "name": "Jest",
     "icon": "jest.svg",
-    "description":
-    "Tester de aplicaciones javascript.",
-    "docs" : "https://jestjs.io/docs/getting-started",
-    "projects":[
+    "description": "Tester de aplicaciones javascript.",
+    "docs": "https://jestjs.io/docs/getting-started",
+    "projects": [
       {
-        "name" : "Bloc Notes",
-	"preview" : "blocNotes.png",
-        "url" : "https://github.com/Arnaiz23/bloc-notes"
+        "name": "Bloc Notes",
+        "preview": "blocNotes.png",
+        "url": "https://github.com/Arnaiz23/bloc-notes"
       },
       {
         "name": "TuManga",
-	"preview" : "tumanga.png",
+        "preview": "tumanga.png",
         "url": "https://github.com/Arnaiz23/TuManga"
       }
     ],
@@ -551,22 +531,22 @@
     "name": "TypeScript",
     "icon": "typescript.svg",
     "description": "JavaScript tipificado. Lo he aprendido recientemente ya que facilita la creación de código, además de que a nivel profesional se utiliza mucho.",
-    "docs" : "https://www.typescriptlang.org/",
+    "docs": "https://www.typescriptlang.org/",
     "projects": [
       {
         "name": "movie-project",
-	"preview" : "movieProject.png",
+        "preview": "movieProject.png",
         "url": "https://github.com/Arnaiz23/movie-project"
       },
       {
         "name": "react-typescript",
-	"preview" : "reactTypescript.png",
+        "preview": "reactTypescript.png",
         "url": "https://github.com/Arnaiz23/react-typescript"
       },
       {
-	"name": "Pokedex",
-	"preview" : "pokedex.png",
-	"url": "https://github.com/Arnaiz23/pokedex"
+        "name": "Pokedex",
+        "preview": "pokedex.png",
+        "url": "https://github.com/Arnaiz23/pokedex"
       }
     ],
     "courses": [
@@ -595,13 +575,13 @@
     "name": "Cypress",
     "icon": "cypress.svg",
     "description": "Herramienta de testing para aplicaciones creadas con JavaScript. Esta basado en tests end-to-end. Actualmente la he utilizado en algún proyecto para realizar un test E2E. No he realizado ningún curso ya que solo lo he aprendido con la documentación oficial de la herramienta.",
-    "docs" : "https://docs.cypress.io/guides/overview/why-cypress",
+    "docs": "https://docs.cypress.io/guides/overview/why-cypress",
     "projects": [
       {
         "name": "Pokedex",
-	"preview" : "pokedex.png",
+        "preview": "pokedex.png",
         "url": "https://github.com/Arnaiz23/Pokedex"
-      }  
+      }
     ],
     "courses": [],
     "stack": "backend"
