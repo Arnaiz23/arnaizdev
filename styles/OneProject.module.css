@@ -63,9 +63,9 @@
 .tagLanguage {
   padding: 5px 10px;
   border-radius: 10px;
-  /* width: max-content; */
   width: 100%;
   cursor: pointer;
+  text-align: center;
 }
 
 .pictureProject {

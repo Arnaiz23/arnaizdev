@@ -1,5 +1,6 @@
 .projectImage {
   border-radius: 20px;
+  image-rendering: pixelated;
 }
 
 .projectContainer {

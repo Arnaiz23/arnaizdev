@@ -12,7 +12,8 @@ export default function ProjectCard({ project }) {
             src={`/images/projects/${project.image}`}
             alt={project.name}
             width={300}
-            height={170}
+            // height={170}
+            height={146}
             className={style.projectImage}
           />
         </picture>

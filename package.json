@@ -8,7 +8,7 @@
     "build": "next build",
     "prepare": "husky install",
     "prettier": "prettier --write .",
-    "optimize:images": "for x in $(find . -iname '*.png');do cwebp -resize 800 0 \"${x}\" -o \"${x%%png}\"webp;done"
+    "optimize:images": "for x in $(find . -iname '*.png');do cwebp \"${x}\" -o \"${x%%png}\"webp;done"
   },
   "keywords": [],
   "author": "Adrián Arnaiz Fernández",
