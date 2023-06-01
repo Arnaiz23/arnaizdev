@@ -39,12 +39,12 @@
     "projects": [
       {
         "name": "Music Player",
-        "preview": "musicPlayer.png",
+        "preview": "musicPlayer.webp",
         "url": "https://github.com/Arnaiz23/MusicPlayer"
       },
       {
         "name": "ProyectoCliente",
-        "preview": "proyectoCliente.png",
+        "preview": "proyectoCliente.webp",
         "url": "https://github.com/Arnaiz23/ProyectoCliente"
       }
     ],
@@ -78,32 +78,32 @@
     "projects": [
       {
         "name": "Pokedex",
-        "preview": "pokedex.png",
+        "preview": "pokedex.webp",
         "url": "https://github.com/Arnaiz23/pokedex"
       },
       {
         "name": "TuManga",
-        "preview": "tumanga.png",
+        "preview": "tumanga.webp",
         "url": "https://github.com/Arnaiz23/TuManga"
       },
       {
         "name": "Contacts app nodeJS",
-        "preview": "contacts_app_nodejs.png",
+        "preview": "contacts_app_nodejs.webp",
         "url": "https://github.com/Arnaiz23/contacts-app-nodejs"
       },
       {
         "name": "Proyecto Docker Simple",
-        "preview": "proyectoDockerSimple.png",
+        "preview": "proyectoDockerSimple.webp",
         "url": "https://github.com/Arnaiz23/ProyectoDockerSimple"
       },
       {
         "name": "Pokemons",
-        "preview": "pokemons.png",
+        "preview": "pokemons.webp",
         "url": "https://github.com/Arnaiz23/Pokemons"
       },
       {
         "name": "Giffy",
-        "preview": "giffy.png",
+        "preview": "giffy.webp",
         "url": "https://github.com/Arnaiz23/Giffy"
       },
       {
@@ -142,12 +142,12 @@
     "projects": [
       {
         "name": "ArnaizDev",
-        "preview": "arnaizdev.png",
+        "preview": "arnaizdev.webp",
         "url": "http://github.com/Arnaiz23/arnaizdev"
       },
       {
         "name": "Devter",
-        "preview": "devter.png",
+        "preview": "devter.webp",
         "url": "http://github.com/Arnaiz23/devter"
       }
     ],
@@ -191,17 +191,17 @@
     "projects": [
       {
         "name": "Contacts app nodeJS",
-        "preview": "contacts_app_nodejs.png",
+        "preview": "contacts_app_nodejs.webp",
         "url": "https://github.com/Arnaiz23/contacts-app-nodejs"
       },
       {
         "name": "Proyecto Docker Simple",
-        "preview": "proyectoDockerSimple.png",
+        "preview": "proyectoDockerSimple.webp",
         "url": "https://github.com/Arnaiz23/ProyectoDockerSimple"
       },
       {
         "name": "Netflix-Copia",
-        "preview": "netflixCopia.png",
+        "preview": "netflixCopia.webp",
         "url": "https://github.com/Arnaiz23/Netflix-Copia"
       }
     ],
@@ -263,12 +263,12 @@
     "projects": [
       {
         "name": "Rate respository app",
-        "preview": "rateRepository.png",
+        "preview": "rateRepository.webp",
         "url": "https://github.com/Arnaiz23/rate-repository-app"
       },
       {
         "name": "Weather App",
-        "preview": "weatherApp.png",
+        "preview": "weatherApp.webp",
         "url": "https://github.com/Arnaiz23/weather-app"
       }
     ],
@@ -290,22 +290,22 @@
     "projects": [
       {
         "name": "Contacts app nodeJS",
-        "preview": "contacts_app_nodejs.png",
+        "preview": "contacts_app_nodejs.webp",
         "url": "https://github.com/Arnaiz23/contacts-app-nodejs"
       },
       {
         "name": "Proyecto Docker Simple",
-        "preview": "proyectoDockerSimple.png",
+        "preview": "proyectoDockerSimple.webp",
         "url": "https://github.com/Arnaiz23/ProyectoDockerSimple"
       },
       {
         "name": "TuManga",
-        "preview": "tumanga.png",
+        "preview": "tumanga.webp",
         "url": "https://github.com/Arnaiz23/TuManga"
       },
       {
         "name": "Netflix-Copia",
-        "preview": "netflixCopia.png",
+        "preview": "netflixCopia.webp",
         "url": "https://github.com/Arnaiz23/Netflix-Copia"
       }
     ],
@@ -345,22 +345,22 @@
     "projects": [
       {
         "name": "Contacts app nodeJS",
-        "preview": "contacts_app_nodejs.png",
+        "preview": "contacts_app_nodejs.webp",
         "url": "https://github.com/Arnaiz23/contacts-app-nodejs"
       },
       {
         "name": "Proyecto Docker Simple",
-        "preview": "proyectoDockerSimple.png",
+        "preview": "proyectoDockerSimple.webp",
         "url": "https://github.com/Arnaiz23/ProyectoDockerSimple"
       },
       {
         "name": "TuManga",
-        "preview": "tumanga.png",
+        "preview": "tumanga.webp",
         "url": "https://github.com/Arnaiz23/TuManga"
       },
       {
         "name": "Netflix-Copia",
-        "preview": "netflixCopia.png",
+        "preview": "netflixCopia.webp",
         "url": "https://github.com/Arnaiz23/Netflix-Copia"
       }
     ],
@@ -400,17 +400,17 @@
     "projects": [
       {
         "name": "Proyecto Docker Simple",
-        "preview": "proyectoDockerSimple.png",
+        "preview": "proyectoDockerSimple.webp",
         "url": "https://github.com/Arnaiz23/ProyectoDockerSimple"
       },
       {
         "name": "TuManga",
-        "preview": "tumanga.png",
+        "preview": "tumanga.webp",
         "url": "https://github.com/Arnaiz23/TuManga"
       },
       {
         "name": "Netflix-Copia",
-        "preview": "netflixCopia.png",
+        "preview": "netflixCopia.webp",
         "url": "https://github.com/Arnaiz23/Netflix-Copia"
       }
     ],
@@ -432,7 +432,7 @@
     "projects": [
       {
         "name": "Contacts app nodeJS",
-        "preview": "contacts_app_nodejs.png",
+        "preview": "contacts_app_nodejs.webp",
         "url": "https://github.com/Arnaiz23/contacts-app-nodejs"
       }
     ],
@@ -488,12 +488,12 @@
     "projects": [
       {
         "name": "Bloc Notes",
-        "preview": "blocNotes.png",
+        "preview": "blocNotes.webp",
         "url": "https://github.com/Arnaiz23/bloc-notes"
       },
       {
         "name": "Pokedex",
-        "preview": "pokedex.png",
+        "preview": "pokedex.webp",
         "url": "https://github.com/Arnaiz23/pokedex"
       }
     ],
@@ -508,12 +508,12 @@
     "projects": [
       {
         "name": "Bloc Notes",
-        "preview": "blocNotes.png",
+        "preview": "blocNotes.webp",
         "url": "https://github.com/Arnaiz23/bloc-notes"
       },
       {
         "name": "TuManga",
-        "preview": "tumanga.png",
+        "preview": "tumanga.webp",
         "url": "https://github.com/Arnaiz23/TuManga"
       }
     ],
@@ -535,17 +535,17 @@
     "projects": [
       {
         "name": "movie-project",
-        "preview": "movieProject.png",
+        "preview": "movieProject.webp",
         "url": "https://github.com/Arnaiz23/movie-project"
       },
       {
         "name": "react-typescript",
-        "preview": "reactTypescript.png",
+        "preview": "reactTypescript.webp",
         "url": "https://github.com/Arnaiz23/react-typescript"
       },
       {
         "name": "Pokedex",
-        "preview": "pokedex.png",
+        "preview": "pokedex.webp",
         "url": "https://github.com/Arnaiz23/pokedex"
       }
     ],
@@ -579,7 +579,7 @@
     "projects": [
       {
         "name": "Pokedex",
-        "preview": "pokedex.png",
+        "preview": "pokedex.webp",
         "url": "https://github.com/Arnaiz23/Pokedex"
       }
     ],

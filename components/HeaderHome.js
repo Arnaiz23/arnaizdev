@@ -16,7 +16,7 @@ export default function HeaderHome() {
       </div>
       <div className={style.headerHomeRight}>
         <Image
-          src="/images/BrandTransparent.png"
+          src="/images/BrandTransparent.webp"
           width={200}
           height={200}
           alt="Arnaizdev brand"
