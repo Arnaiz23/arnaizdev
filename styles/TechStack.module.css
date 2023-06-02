@@ -41,8 +41,10 @@
   width: 80px;
   transition: color 0.3s;
   cursor: pointer;
+  transition: transform 0.5ms linear;
 }
 
 .iconTech:hover {
   color: var(--color-react);
+  transform: scale(1.1);
 }
