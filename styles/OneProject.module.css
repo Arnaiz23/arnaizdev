@@ -63,7 +63,7 @@
 .tagLanguage {
   padding: 5px 10px;
   border-radius: 10px;
-  width: 100%;
+  width: max-content;
   cursor: pointer;
   text-align: center;
 }
