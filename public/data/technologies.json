@@ -585,5 +585,20 @@
     ],
     "courses": [],
     "stack": "backend"
+  },
+  {
+    "name": "Astro",
+    "icon": "astro.svg",
+    "description": "Framework de JavaScript que he aprendido para poder crear facilmente páginas estáticas. También me permite utilizar componentes de React, además de utilizar Markdown files.",
+    "docs": "https://docs.astro.build/en/getting-started/",
+    "projects": [
+      {
+        "name": "Astro-tutorial",
+        "preview": "astro-tutorial.webp",
+        "url": "https://github.com/Arnaiz23/Astro-tutorial"
+      }
+    ],
+    "courses": [],
+    "stack": "frontend"
   }
 ]
