@@ -2,8 +2,8 @@ import React from "react"
 import Image from "next/image"
 
 import style from "../styles/OptionsCardsHome.module.css"
-import back from "/public/images/back.webp"
-import front from "/public/images/front.webp"
+import back from "public/images/back.webp"
+import front from "public/images/front.webp"
 
 export default function OptionsCardsHome() {
   return (

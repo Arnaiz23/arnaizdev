@@ -1,6 +1,6 @@
 import React from "react"
 import styles from "../styles/Header.module.css"
-import brand from "/public/images/BrandTransparent.webp"
+import brand from "public/images/BrandTransparent.webp"
 import Image from "next/image"
 import Link from "next/link"
 
