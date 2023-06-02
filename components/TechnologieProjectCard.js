@@ -1,4 +1,5 @@
 import style from "@/styles/OneTechnologie.module.css"
+import Image from "next/image"
 
 export default function TechnologieProjectCard({ project }) {
   return (
@@ -11,12 +12,12 @@ export default function TechnologieProjectCard({ project }) {
       >
         <header className={style.headerCard}>
           <picture>
-            <img
+            <Image
               src={`/images/previews/${project.preview}`}
               alt={`${project.name} preview`}
               width={300}
               height={170}
-              style={{ objectFit: "contain" }}
+              objectFit="contain"
             />
           </picture>
         </header>
