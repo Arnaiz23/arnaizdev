@@ -18,6 +18,7 @@
   --color-js: #dce20c;
   --color-tailwind: #06b6d4;
   --color-ts: #3178c6;
+  --color-express: #000;
 }
 
 body {
@@ -72,4 +73,9 @@ a {
 .typescript {
   background-color: var(--color-ts);
   color: #000;
+}
+
+.express {
+  background-color: var(--color-express);
+  color: #fff;
 }

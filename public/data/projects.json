@@ -21,7 +21,10 @@
       }
     ],
     "repositorie": "https://github.com/Arnaiz23/TuManga",
-    "images": ["TuManga.webp", "tumanga-platform.webp"]
+    "images": [
+      "TuManga.webp",
+      "tumanga-platform.webp"
+    ]
   },
   {
     "image": "notes-dark.webp",
@@ -49,7 +52,10 @@
       }
     ],
     "repositorie": "https://github.com/Arnaiz23/bloc-notes",
-    "images": ["notes-dark.webp", "notes-light.webp"]
+    "images": [
+      "notes-dark.webp",
+      "notes-light.webp"
+    ]
   },
   {
     "image": "movies-dark.webp",
@@ -143,6 +149,47 @@
       "pokedex-more-light.webp",
       "pokedex-pokemon-dark.webp",
       "pokedex-pokemon-light.webp"
+    ]
+  },
+  {
+    "image": "todo-app-todos.webp",
+    "name": "Todo-app",
+    "short_description": "Aplicación para poder administrar tus TODOS.",
+    "description": "Aplicación para poder crear y administrar tus TODOS. Permite la creación de diferentes usuarios.",
+    "date": "2023",
+    "url": "https://arnaiz23-todo-app.netlify.app/",
+    "languages": [
+      {
+        "name": "React",
+        "class": "react"
+      },
+      {
+        "name": "JavaScript",
+        "class": "js"
+      },
+      {
+        "name": "TailwindCSS",
+        "class": "tailwind"
+      },
+      {
+        "name": "NodeJS",
+        "class": "node"
+      },
+      {
+        "name": "Express",
+        "class": "express"
+      },
+      {
+        "name": "MySQL",
+        "class": "mysql"
+      }
+    ],
+    "repositorie": "https://github.com/Arnaiz23/todo-app",
+    "images": [
+      "todo-app-home.webp",
+      "todo-app-login.webp",
+      "todo-app-register.webp",
+      "todo-app-todos.webp"
     ]
   }
 ]

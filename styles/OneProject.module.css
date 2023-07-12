@@ -56,8 +56,9 @@
 .projectLanguages {
   display: flex;
   gap: 15px;
-  justify-content: space-evenly;
+  justify-content: flex-end;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .tagLanguage {
