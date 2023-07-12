@@ -46,6 +46,11 @@
         "name": "ProyectoCliente",
         "preview": "proyectoCliente.webp",
         "url": "https://github.com/Arnaiz23/ProyectoCliente"
+      },
+      {
+        "name": "Todo-app",
+        "preview": "todo-app-todos.webp",
+        "url": "https://github.com/Arnaiz23/todo-app"
       }
     ],
     "courses": [
@@ -85,6 +90,11 @@
         "name": "TuManga",
         "preview": "tumanga.webp",
         "url": "https://github.com/Arnaiz23/TuManga"
+      },
+      {
+        "name": "Todo-app",
+        "preview": "todo-app-todos.webp",
+        "url": "https://github.com/Arnaiz23/todo-app"
       },
       {
         "name": "Contacts app nodeJS",
@@ -307,6 +317,11 @@
         "name": "Netflix-Copia",
         "preview": "netflixCopia.webp",
         "url": "https://github.com/Arnaiz23/Netflix-Copia"
+      },
+      {
+        "name": "Todo-app",
+        "preview": "todo-app-todos.webp",
+        "url": "https://github.com/Arnaiz23/todo-app"
       }
     ],
     "courses": [
@@ -362,6 +377,11 @@
         "name": "Netflix-Copia",
         "preview": "netflixCopia.webp",
         "url": "https://github.com/Arnaiz23/Netflix-Copia"
+      },
+      {
+        "name": "Todo-app",
+        "preview": "todo-app-todos.webp",
+        "url": "https://github.com/Arnaiz23/todo-app"
       }
     ],
     "courses": [
@@ -434,6 +454,11 @@
         "name": "Contacts app nodeJS",
         "preview": "contacts_app_nodejs.webp",
         "url": "https://github.com/Arnaiz23/contacts-app-nodejs"
+      },
+      {
+        "name": "Todo-app",
+        "preview": "todo-app-todos.webp",
+        "url": "https://github.com/Arnaiz23/todo-app"
       }
     ],
     "courses": [
@@ -495,6 +520,11 @@
         "name": "Pokedex",
         "preview": "pokedex.webp",
         "url": "https://github.com/Arnaiz23/pokedex"
+      },
+      {
+        "name": "Todo-app",
+        "preview": "todo-app-todos.webp",
+        "url": "https://github.com/Arnaiz23/todo-app"
       }
     ],
     "courses": [],
