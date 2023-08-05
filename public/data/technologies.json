@@ -118,7 +118,7 @@
       },
       {
         "name": "Netflix-Copia",
-        "preview": "",
+        "preview": null,
         "url": "https://github.com/Arnaiz23/Netflix-Copia"
       }
     ],
@@ -497,7 +497,7 @@
     "projects": [
       {
         "name": "Todo-app API",
-        "preview": "",
+        "preview": null,
         "url": "https://github.com/Arnaiz23/todo-app-python"
       }
     ],

@@ -2,6 +2,8 @@ import style from "@/styles/OneTechnologie.module.css"
 import Image from "next/image"
 
 export default function TechnologieProjectCard({ project }) {
+  const imageName = project.preview ?? "default-project.webp"
+
   return (
     <li className={style.card}>
       <a
@@ -13,11 +15,11 @@ export default function TechnologieProjectCard({ project }) {
         <header className={style.headerCard}>
           <picture>
             <Image
-              src={`/images/previews/${project.preview}`}
+              src={`/images/previews/${imageName}`}
               alt={`${project.name} preview`}
               width={300}
               height={170}
-              objectFit="contain"
+              objectFit="cover"
             />
           </picture>
         </header>
