@@ -1,0 +1,21 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 40px;
+}
+
+.container > h2 {
+  font-size: 28px;
+  text-align: center;
+}
+
+@media screen and (max-width: 522px) {
+  .container img {
+    width: 90%;
+    height: auto;
+  }
+}
