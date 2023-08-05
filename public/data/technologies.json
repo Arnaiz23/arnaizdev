@@ -211,7 +211,7 @@
       },
       {
         "name": "Netflix-Copia",
-        "preview": "netflixCopia.webp",
+        "preview": null,
         "url": "https://github.com/Arnaiz23/Netflix-Copia"
       }
     ],
@@ -315,7 +315,7 @@
       },
       {
         "name": "Netflix-Copia",
-        "preview": "netflixCopia.webp",
+        "preview": null,
         "url": "https://github.com/Arnaiz23/Netflix-Copia"
       },
       {
@@ -375,7 +375,7 @@
       },
       {
         "name": "Netflix-Copia",
-        "preview": "netflixCopia.webp",
+        "preview": null,
         "url": "https://github.com/Arnaiz23/Netflix-Copia"
       },
       {
@@ -430,7 +430,7 @@
       },
       {
         "name": "Netflix-Copia",
-        "preview": "netflixCopia.webp",
+        "preview": null,
         "url": "https://github.com/Arnaiz23/Netflix-Copia"
       }
     ],
@@ -492,7 +492,7 @@
   {
     "name": "Python",
     "icon": "python.svg",
-    "description": "Lenguaje para el lado del backend. Actualmente estoy en proceso de aprenderlo.",
+    "description": "Lenguaje para el lado del backend. Actualmente estoy en proceso de aprenderlo. Mi idea principal para este lenguaje, es poder crear API's (RapidAPI) como alternativa a NodeJS y para poder crear scripts personalizados que me puedan facilitar algunas tareas.",
     "docs": "https://docs.python.org/3/",
     "projects": [
       {
