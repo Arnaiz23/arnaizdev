@@ -494,7 +494,13 @@
     "icon": "python.svg",
     "description": "Lenguaje para el lado del backend. Actualmente estoy en proceso de aprenderlo.",
     "docs": "https://docs.python.org/3/",
-    "projects": [],
+    "projects": [
+      {
+        "name": "Todo-app API",
+        "preview": "",
+        "url": "https://github.com/Arnaiz23/todo-app-python"
+      }
+    ],
     "courses": [
       {
         "name": "Aprendiendo a PROGRAMAR en PYTHON Desde Cero",
