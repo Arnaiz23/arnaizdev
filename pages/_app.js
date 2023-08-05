@@ -11,7 +11,7 @@ export default function MyApp({ Component, pageProps }) {
         <meta name="author" content="Adrián Arnaiz Fernández" />
         <meta
           name="keywords"
-          content="Portfolio Madrid Full Stack Developer Frontend Programador web React"
+          content="Portfolio, Madrid, Full Stack Developer, Frontend, Programador web, React, NextJS, NodeJS, Frontend developer, Programador Madrid, Programador web madrid"
         />
         <meta
           name="description"
