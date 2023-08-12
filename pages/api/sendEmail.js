@@ -10,7 +10,7 @@ export default async (req, res) => {
     const data = await resend.emails.send({
       from: "Arnaizdev <onboarding@resend.dev>",
       to: ["aaf110501@gmail.com"],
-      subject: "Hello world",
+      subject: "New message from my portfolio",
       react: EmailTemplate({ name, email, message }),
     })
 

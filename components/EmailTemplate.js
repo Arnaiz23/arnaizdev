@@ -18,9 +18,6 @@ export const EmailTemplate = ({ name, email, message }) => (
         color: "#fff",
       }}
     >
-      <h1 style={{ fontSize: "32px", color: "#fff" }}>
-        New message from your portfolio
-      </h1>
       <h2 style={{ fontSize: "24px", color: "#fff" }}>
         Message from {email} / {name}
       </h2>
