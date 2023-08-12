@@ -8,7 +8,7 @@
 }
 
 .formContainer {
-  width: 80%;
+  width: 60%;
   margin: auto;
   /* display: grid; */
   /* grid-template-rows: 1fr 1fr; */
@@ -80,6 +80,12 @@
   font-weight: bold;
   font-size: 18px;
   background-color: var(--primary-green);
+}
+
+@media screen and (max-width: 1200px) {
+  .formContainer {
+    width: 80%;
+  }
 }
 
 @media screen and (max-width: 800px) {
