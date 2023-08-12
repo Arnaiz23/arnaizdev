@@ -1,4 +1,5 @@
 import { useState } from "react"
+import { Toaster, toast } from "sonner"
 
 import styles from "@/styles/Contact.module.css"
 
@@ -35,49 +36,52 @@ const ContactForm = () => {
       message: "",
     })
 
-    alert("Correo enviado!!!")
+    toast.success("Correo enviado!!!")
   }
 
   return (
-    <form className={styles.formContainer} onSubmit={handleSubmit}>
-      <div className={styles.row}>
-        <div className={styles.containerInput}>
-          <label>Correo</label>
-          <input
-            type="email"
-            name="email"
-            placeholder="test@gmail.com"
+    <>
+      <Toaster richColors />
+      <form className={styles.formContainer} onSubmit={handleSubmit}>
+        <div className={styles.row}>
+          <div className={styles.containerInput}>
+            <label>Correo</label>
+            <input
+              type="email"
+              name="email"
+              placeholder="test@gmail.com"
+              onChange={handleChange}
+              required
+              value={data.email}
+            />
+          </div>
+          <div className={styles.containerInput}>
+            <label>Nombre</label>
+            <input
+              type="text"
+              name="name"
+              placeholder="Adrián"
+              onChange={handleChange}
+              required
+              value={data.name}
+            />
+          </div>
+        </div>
+        <div className={styles.containerTextArea}>
+          <label>Mensaje</label>
+          <textarea
+            name="message"
+            placeholder="Escribe tu mensaje..."
             onChange={handleChange}
             required
-            value={data.email}
-          />
+            value={data.message}
+          ></textarea>
         </div>
-        <div className={styles.containerInput}>
-          <label>Nombre</label>
-          <input
-            type="text"
-            name="name"
-            placeholder="Adrián"
-            onChange={handleChange}
-            required
-            value={data.name}
-          />
-        </div>
-      </div>
-      <div className={styles.containerTextArea}>
-        <label>Mensaje</label>
-        <textarea
-          name="message"
-          placeholder="Escribe tu mensaje..."
-          onChange={handleChange}
-          required
-          value={data.message}
-        ></textarea>
-      </div>
-      <button type="submit" className={styles.buttonSubmit}>
-        Enviar
-      </button>
-    </form>
+        <button type="submit" className={styles.buttonSubmit}>
+          Enviar
+        </button>
+      </form>
+    </>
   )
 }
 
