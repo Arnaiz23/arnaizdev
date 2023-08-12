@@ -1,10 +1,11 @@
 import Head from "next/head"
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons"
 
+import styles from "@/styles/Contact.module.css"
+
 import ContactOption from "@/components/ContactOption"
 import Layout from "@/components/Layout"
-
-import styles from "@/styles/Contact.module.css"
+import ContactForm from "@/components/ContactForm"
 
 export default function Contact() {
   return (
@@ -31,25 +32,7 @@ export default function Contact() {
         </section>
         <section>
           <h2 className={styles.title}>Contacto</h2>
-          <form className={styles.formContainer}>
-            <div className={styles.row}>
-              <div className={styles.containerInput}>
-                <label>Correo</label>
-                <input type="email" placeholder="test@gmail.com" />
-              </div>
-              <div className={styles.containerInput}>
-                <label>Nombre</label>
-                <input type="text" placeholder="Adrián" />
-              </div>
-            </div>
-            <div className={styles.containerTextArea}>
-              <label>Mensaje</label>
-              <textarea placeholder="Escribe tu mensaje..."></textarea>
-            </div>
-            <button type="submit" className={styles.buttonSubmit}>
-              Enviar
-            </button>
-          </form>
+          <ContactForm />
         </section>
       </section>
     </Layout>
