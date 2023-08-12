@@ -1,8 +1,24 @@
+import { useState } from "react"
+
 import styles from "@/styles/Contact.module.css"
 
 const ContactForm = () => {
+  const [data, setData] = useState({
+    email: "",
+    name: "",
+    message: "",
+  })
+
+  const handleChange = (e) => {
+    setData({
+      ...data,
+      [e.target.name]: e.target.value,
+    })
+  }
+
   const handleSubmit = (e) => {
     e.preventDefault()
+    console.log({ data })
   }
 
   return (
@@ -10,16 +26,30 @@ const ContactForm = () => {
       <div className={styles.row}>
         <div className={styles.containerInput}>
           <label>Correo</label>
-          <input type="email" placeholder="test@gmail.com" />
+          <input
+            type="email"
+            name="email"
+            placeholder="test@gmail.com"
+            onChange={handleChange}
+          />
         </div>
         <div className={styles.containerInput}>
           <label>Nombre</label>
-          <input type="text" placeholder="Adrián" />
+          <input
+            type="text"
+            name="name"
+            placeholder="Adrián"
+            onChange={handleChange}
+          />
         </div>
       </div>
       <div className={styles.containerTextArea}>
         <label>Mensaje</label>
-        <textarea placeholder="Escribe tu mensaje..."></textarea>
+        <textarea
+          name="message"
+          placeholder="Escribe tu mensaje..."
+          onChange={handleChange}
+        ></textarea>
       </div>
       <button type="submit" className={styles.buttonSubmit}>
         Enviar
