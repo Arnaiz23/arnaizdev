@@ -16,9 +16,26 @@ const ContactForm = () => {
     })
   }
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault()
-    console.log({ data })
+    // console.log({ data })
+    const response = await fetch("/api/sendEmail", {
+      method: "POST",
+      headers: {
+        "content-type": "application/json",
+      },
+      body: JSON.stringify(data),
+    })
+
+    await response.json()
+
+    setData({
+      email: "",
+      name: "",
+      message: "",
+    })
+
+    alert("Correo enviado!!!")
   }
 
   return (
@@ -31,6 +48,8 @@ const ContactForm = () => {
             name="email"
             placeholder="test@gmail.com"
             onChange={handleChange}
+            required
+            value={data.email}
           />
         </div>
         <div className={styles.containerInput}>
@@ -40,6 +59,8 @@ const ContactForm = () => {
             name="name"
             placeholder="Adrián"
             onChange={handleChange}
+            required
+            value={data.name}
           />
         </div>
       </div>
@@ -49,6 +70,8 @@ const ContactForm = () => {
           name="message"
           placeholder="Escribe tu mensaje..."
           onChange={handleChange}
+          required
+          value={data.message}
         ></textarea>
       </div>
       <button type="submit" className={styles.buttonSubmit}>
