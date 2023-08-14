@@ -20,23 +20,31 @@ const ContactForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault()
     // console.log({ data })
-    const response = await fetch("/api/sendEmail", {
-      method: "POST",
-      headers: {
-        "content-type": "application/json",
-      },
-      body: JSON.stringify(data),
-    })
+    try {
+      const response = await fetch("/api/sendEmail", {
+        method: "POST",
+        headers: {
+          "content-type": "application/json",
+        },
+        body: JSON.stringify(data),
+      })
 
-    await response.json()
+      if (response.status !== 200)
+        throw new Error("Error al enviar el formulario. Intentelo más tarde.")
 
-    setData({
-      email: "",
-      name: "",
-      message: "",
-    })
+      await response.json()
 
-    toast.success("Correo enviado!!!")
+      setData({
+        email: "",
+        name: "",
+        message: "",
+      })
+
+      toast.success("Correo enviado!!!")
+    } catch (error) {
+      // console.error(error)
+      toast.error(error.message)
+    }
   }
 
   return (
@@ -56,7 +64,7 @@ const ContactForm = () => {
             />
           </div>
           <div className={styles.containerInput}>
-            <label>Nombre</label>
+            <label>Nombre y apellidos</label>
             <input
               type="text"
               name="name"
