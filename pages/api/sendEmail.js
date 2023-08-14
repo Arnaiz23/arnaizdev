@@ -6,10 +6,9 @@ const resend = new Resend(process.env.RESEND_API_KEY)
 export default async (req, res) => {
   try {
     const { email, name, message } = req.body
-    console.log({ email, name, message })
     const data = await resend.emails.send({
       from: "Arnaizdev <onboarding@resend.dev>",
-      to: ["aaf110501@gmail.com"],
+      to: [process.env.RESEND_TO_EMAIL],
       subject: "New message from my portfolio",
       react: EmailTemplate({ name, email, message }),
     })
