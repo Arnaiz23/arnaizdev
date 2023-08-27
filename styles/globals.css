@@ -19,6 +19,8 @@
   --color-tailwind: #06b6d4;
   --color-ts: #3178c6;
   --color-express: #000;
+  --color-html: #e34f26;
+  --color-css: #0099e5;
 }
 
 body {
@@ -78,4 +80,12 @@ a {
 .express {
   background-color: var(--color-express);
   color: #fff;
+}
+
+.html {
+  background-color: var(--color-html);
+}
+
+.css {
+  background-color: var(--color-css);
 }

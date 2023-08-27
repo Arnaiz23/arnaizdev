@@ -21,10 +21,7 @@
       }
     ],
     "repositorie": "https://github.com/Arnaiz23/TuManga",
-    "images": [
-      "TuManga.webp",
-      "tumanga-platform.webp"
-    ]
+    "images": ["TuManga.webp", "tumanga-platform.webp"]
   },
   {
     "image": "notes-dark.webp",
@@ -52,10 +49,7 @@
       }
     ],
     "repositorie": "https://github.com/Arnaiz23/bloc-notes",
-    "images": [
-      "notes-dark.webp",
-      "notes-light.webp"
-    ]
+    "images": ["notes-dark.webp", "notes-light.webp"]
   },
   {
     "image": "movies-dark.webp",
@@ -190,6 +184,34 @@
       "todo-app-login.webp",
       "todo-app-register.webp",
       "todo-app-todos.webp"
+    ]
+  },
+  {
+    "image": "discord-layout.webp",
+    "name": "Discord clone",
+    "short_description": "Maquetación de discord",
+    "description": "Maquetación de discord con HTML, CSS y JS",
+    "date": "2023",
+    "url": "https://discord-arnaizdev.netlify.app",
+    "languages": [
+      {
+        "name": "HTML",
+        "class": "html"
+      },
+      {
+        "name": "JavaScript",
+        "class": "js"
+      },
+      {
+        "name": "CSS",
+        "class": "css"
+      }
+    ],
+    "repositorie": "https://github.com/Arnaiz23/discord-clone-layout",
+    "images": [
+      "discord-layout.webp",
+      "discord-layout-md.webp",
+      "discord-layout-inbox.webp"
     ]
   }
 ]

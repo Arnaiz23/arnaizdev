@@ -4,7 +4,13 @@
     "icon": "html.svg",
     "description": "Es el primer lenguaje que aprendi. La primera vez que lo toque fue en segundo de Grado Medio. Gracias a conocer HTML, CSS y JS decidi ir por la rama de la programación web",
     "docs": "https://developer.mozilla.org/en-US/docs/Web/HTML",
-    "projects": [],
+    "projects": [
+      {
+        "name": "Discord clone",
+        "preview": "discord-layout.webp",
+        "url": "https://github.com/Arnaiz23/discord-clone-layout"
+      }
+    ],
     "courses": [
       {
         "name": "Curso de HTML5 desde CERO (Completo)",
@@ -20,7 +26,13 @@
     "icon": "css.svg",
     "description": "Al igual que HTML, es el primer lenguaje que aprendi",
     "docs": "https://developer.mozilla.org/en-US/docs/Web/CSS",
-    "projects": [],
+    "projects": [
+      {
+        "name": "Discord clone",
+        "preview": "discord-layout.webp",
+        "url": "https://github.com/Arnaiz23/discord-clone-layout"
+      }
+    ],
     "courses": [
       {
         "name": "Curso de CSS desde CERO (Completo)",
@@ -51,6 +63,11 @@
         "name": "Todo-app",
         "preview": "todo-app-todos.webp",
         "url": "https://github.com/Arnaiz23/todo-app"
+      },
+      {
+        "name": "Discord clone",
+        "preview": "discord-layout.webp",
+        "url": "https://github.com/Arnaiz23/discord-clone-layout"
       }
     ],
     "courses": [
