@@ -12,7 +12,11 @@ export default function Custom404() {
       </Head>
       <div className={style.container}>
         <h2>Página no encontrada 404</h2>
-        <img src="/images/this-is-fine-404.gif" alt="404 meme gif" />
+        <img
+          src="/images/this-is-fine-404.gif"
+          alt="404 meme gif"
+          loading="lazy"
+        />
       </div>
     </Layout>
   )
