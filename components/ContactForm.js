@@ -10,6 +10,12 @@ const ContactForm = () => {
     message: "",
   })
 
+  const [errors, setErrors] = useState({
+    email: false,
+    name: false,
+    message: false,
+  })
+
   const handleChange = (e) => {
     setData({
       ...data,
@@ -19,7 +25,49 @@ const ContactForm = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault()
-    // console.log({ data })
+
+    if (!data.email) {
+      setErrors({
+        ...errors,
+        email: true,
+      })
+      toast.error("The email is required!!!")
+      return
+    }
+
+    if (!data.email.match(/^[\w-.]+@([\w-]+\.)+[\w-]{2,4}$/g)) {
+      setErrors({
+        ...errors,
+        email: true,
+      })
+      toast.error("The email format is incorrect!!!")
+      return
+    }
+
+    errors.email = false
+
+    if (!data.name) {
+      setErrors({
+        ...errors,
+        name: true,
+      })
+      toast.error("The name is required!!!")
+      return
+    }
+
+    errors.name = false
+
+    if (!data.message) {
+      setErrors({
+        ...errors,
+        message: true,
+      })
+      toast.error("The message is required!!!")
+      return
+    }
+
+    errors.message = false
+
     try {
       const response = await fetch("/api/sendEmail", {
         method: "POST",
@@ -42,7 +90,6 @@ const ContactForm = () => {
 
       toast.success("Correo enviado!!!")
     } catch (error) {
-      // console.error(error)
       toast.error(error.message)
     }
   }
@@ -61,6 +108,7 @@ const ContactForm = () => {
               onChange={handleChange}
               required
               value={data.email}
+              className={errors.email ? styles.contactFormError : ""}
             />
           </div>
           <div className={styles.containerInput}>
@@ -72,6 +120,7 @@ const ContactForm = () => {
               onChange={handleChange}
               required
               value={data.name}
+              className={errors.name ? styles.contactFormError : ""}
             />
           </div>
         </div>
@@ -83,6 +132,7 @@ const ContactForm = () => {
             onChange={handleChange}
             required
             value={data.message}
+            className={errors.message ? styles.contactFormError : ""}
           ></textarea>
         </div>
         <button type="submit" className={styles.buttonSubmit}>
