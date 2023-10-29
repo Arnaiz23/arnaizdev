@@ -40,7 +40,7 @@ const ContactForm = () => {
         ...errors,
         email: true,
       })
-      toast.error("The email format is incorrect!!!")
+      toast.error("The email format is invalid!!!")
       return
     }
 
