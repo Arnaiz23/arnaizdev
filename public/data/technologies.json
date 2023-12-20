@@ -653,5 +653,27 @@
     ],
     "courses": [],
     "stack": "frontend"
+  },
+  {
+    "name": "PHP",
+    "icon": "php.svg",
+    "description": "Lenguaje de programación backend. Actualmente mi conocimiento es creaciones con PHP vanilla. En un futuro el objetivo es poder aprenderlo lo suficiente como para poder crear sobretodo REST API's.",
+    "docs": "https://www.php.net/docs.php",
+    "projects": [
+      {
+        "name": "Todo-app vanilla",
+        "preview": "todo-app-todos.webp",
+        "url": "https://github.com/Arnaiz23/todo-app-vanilla"
+      }
+    ],
+    "courses": [
+      {
+        "name": "CRUD en PHP y MySQL (Microcurso sin Frameworks - Código Vanilla)",
+        "description": "Tutorial de PadawansTrainer sobre una aplicación básica en la que enseña la arquitectura MVC y además todo creado con PHP vanilla.",
+        "url": "https://www.youtube.com/playlist?list=PLrtk2b5KQ79Y9Cbn35q3-D8NxDIegEF9f",
+        "image": "course-yt.svg"
+      }
+    ],
+    "stack": "backend"
   }
 ]
