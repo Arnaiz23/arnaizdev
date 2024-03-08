@@ -1,7 +1,5 @@
 import style from "../styles/ContactOption.module.css"
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-
 export default function ContactOption({
   reverse,
   image,
@@ -9,6 +7,8 @@ export default function ContactOption({
   link,
   ariaLabel,
 }) {
+  const Icon = image
+
   return (
     <article className={`${style.contactOption} ${reverse && style.reverse}`}>
       <a
@@ -18,9 +18,7 @@ export default function ContactOption({
         rel="noreferrer"
         aria-label={ariaLabel}
       >
-        <i>
-          <FontAwesomeIcon icon={image} />
-        </i>
+        <Icon />
       </a>
       <h3>{title}</h3>
     </article>
