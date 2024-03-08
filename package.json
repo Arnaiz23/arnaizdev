@@ -24,7 +24,8 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "resend": "^0.17.2",
-    "sonner": "^0.6.2"
+    "sonner": "^0.6.2",
+    "zod": "^3.22.4"
   },
   "devDependencies": {
     "eslint": "^8.23.0",
