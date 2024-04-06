@@ -1,5 +1,28 @@
 [
   {
+    "image": "ikigaipsicologia.webp",
+    "name": "IkigaiPsicologia",
+    "short_description": "Página web oficial sobre el centro psicológico Ikigai Psicología",
+    "description": "Página web oficial sobre el centro psicológico Ikigai Psicología ubicado en Móstoles.",
+    "date": "2024",
+    "url": "https://ikigaipsicologia.es",
+    "languages": [
+      {
+        "name": "Astro",
+        "class": "astro"
+      },{
+        "name": "React",
+        "class": "react"
+      },
+      {
+        "name": "Deno deploy",
+        "class": "deno"
+      }
+    ],
+    "repositorie": "https://github.com/Arnaiz23/ikigaipsicologia",
+    "images": ["ikigaipsicologia.webp"]
+  },
+  {
     "image": "TuManga.webp",
     "name": "TuManga",
     "short_description": "Tienda online sobre mangas, novelas ligeras y merchandising",
