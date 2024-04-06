@@ -1,9 +1,11 @@
 import React from "react"
 
 export default function Footer() {
+  const year = new Date().getFullYear()
+
   return (
     <footer>
-      <h3>&copy; 2023 Adrián Arnaiz Fernández.</h3>
+      <h3>&copy; {year} Adrián Arnaiz Fernández.</h3>
       <style jsx>{`
         h3 {
           color: #bbb;
