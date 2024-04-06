@@ -21,6 +21,7 @@
   --color-express: #000;
   --color-html: #e34f26;
   --color-css: #0099e5;
+  --color-astro: #c966f1;
 }
 
 @font-face {
@@ -123,4 +124,14 @@ a {
 
 .css {
   background-color: var(--color-css);
+}
+
+.deno {
+  background-color: #000;
+  color: #fff;
+}
+
+.astro {
+  background-color: var(--color-astro);
+  color: #000;
 }
