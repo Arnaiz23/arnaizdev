@@ -18,9 +18,6 @@ export default function PageProject({
     <Layout>
       <Head>
         <title>Arnaizdev - {name}</title>
-        {images.map((img, index) => (
-          <link key={index} rel="preload" href={img} as="image" />
-        ))}
       </Head>
       <section className={style.mainContainer}>
         <header className={style.headerContainer}>
