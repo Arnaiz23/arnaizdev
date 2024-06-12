@@ -9,6 +9,11 @@
         "name": "Discord clone",
         "preview": "discord-layout.webp",
         "url": "https://github.com/Arnaiz23/discord-clone-layout"
+      },
+      {
+        "name": "Twitch clone - layout",
+        "preview": "twitch-preview.webp",
+        "url": "https://github.com/Arnaiz23/twitch-preview"
       }
     ],
     "courses": [
@@ -99,6 +104,11 @@
     "docs": "https://react.dev/",
     "projects": [
       {
+        "name": "IkigaiPsicologia",
+        "preview": "ikigaipsicologia.webp",
+        "url": "https: //github.com/Arnaiz23/ikigaipsicologia"
+      },
+      {
         "name": "Pokedex",
         "preview": "pokedex.webp",
         "url": "https://github.com/Arnaiz23/pokedex"
@@ -107,6 +117,11 @@
         "name": "TuManga",
         "preview": "tumanga.webp",
         "url": "https://github.com/Arnaiz23/TuManga"
+      },
+      {
+        "name": "Bloc Notes",
+        "preview": "notes-dark.webp",
+        "url": "https: //github.com/Arnaiz23/bloc-notes"
       },
       {
         "name": "Todo-app",
@@ -535,6 +550,11 @@
     "docs": "https://tailwindcss.com/",
     "projects": [
       {
+        "name": "Twitch clone - layout",
+        "preview": "twitch-preview.webp",
+        "url": "https://github.com/Arnaiz23/twitch-preview"
+      },
+      {
         "name": "Bloc Notes",
         "preview": "blocNotes.webp",
         "url": "https://github.com/Arnaiz23/bloc-notes"
@@ -649,6 +669,16 @@
         "name": "Astro-tutorial",
         "preview": "astro-tutorial.webp",
         "url": "https://github.com/Arnaiz23/Astro-tutorial"
+      },
+      {
+        "name": "IkigaiPsicologia",
+        "preview": "ikigaipsicologia.webp",
+        "url": "https://github.com/Arnaiz23/ikigaipsicologia"
+      },
+      {
+        "name": "Twitch clone - layout",
+        "preview": "twitch-preview.webp",
+        "url": "https://github.com/Arnaiz23/twitch-preview"
       }
     ],
     "courses": [],
