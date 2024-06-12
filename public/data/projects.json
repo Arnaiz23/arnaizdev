@@ -236,5 +236,28 @@
       "discord-layout-md.webp",
       "discord-layout-inbox.webp"
     ]
+  },
+  {
+    "image": "twitch-preview.webp",
+    "name": "Twitch clone - layout",
+    "short_description": "Clon de twitch con HTML y CSS",
+    "description": "Clon de twitch con HTML y CSS",
+    "date": "2024",
+    "url": "https://twitch-preview.netlify.app/",
+    "languages": [
+      {
+        "name": "Astro",
+        "class": "astro"
+      },{
+        "name": "TailwindCSS",
+        "class": "tailwind"
+      },
+      {
+        "name": "HTML",
+        "class": "html"
+      }
+    ],
+    "repositorie": "https://github.com/Arnaiz23/twitch-preview",
+    "images": ["twitch-preview.webp"]
   }
 ]
