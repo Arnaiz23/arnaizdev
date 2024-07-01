@@ -11,6 +11,7 @@ export default function AboutMe() {
     <Layout>
       <Head>
         <title>Arnaizdev - About</title>
+        <link rel="canonical" href="https://arnaizdev.com/about" />
       </Head>
       <section className={style.center}>
         <header className={style.header}>

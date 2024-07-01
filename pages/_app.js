@@ -19,7 +19,6 @@ export default function MyApp({ Component, pageProps }) {
           content="Portfolio de Adrián Arnaiz Fernández. Se explica los lenguajes que sabe utilizar, los proyectos realizados e información sobre él."
         />
         <meta name="robots" content="index" />
-        <link rel="canonical" href="https://arnaizdev.com/" />
         <meta name="theme-color" content="#3e4144" />
       </Head>
       <Component {...pageProps} />

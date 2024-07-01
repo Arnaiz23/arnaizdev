@@ -13,6 +13,7 @@ export default function Contact() {
     <Layout>
       <Head>
         <title>Arnaizdev - Contact</title>
+        <link rel="canonical" href="https://arnaizdev.com/contact" />
       </Head>
       <section className={styles.main}>
         <section>

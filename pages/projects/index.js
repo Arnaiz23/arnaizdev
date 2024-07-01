@@ -9,6 +9,7 @@ export default function Projects({ data }) {
     <Layout>
       <Head>
         <title>Arnaizdev - Projects</title>
+        <link rel="canonical" href="https://arnaizdev.com/projects" />
       </Head>
       <section className={styles.containerMain}>
         <h2>Proyectos</h2>

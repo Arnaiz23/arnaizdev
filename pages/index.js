@@ -11,6 +11,7 @@ export default function Home({ frontend, backend, other }) {
     <Layout>
       <Head>
         <title>Arnaizdev - Home</title>
+        <link rel="canonical" href="https://arnaizdev.com/" />
       </Head>
       <HeaderHome />
       <OptionsCardsHome />
