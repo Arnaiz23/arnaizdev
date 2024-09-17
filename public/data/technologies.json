@@ -705,5 +705,14 @@
       }
     ],
     "stack": "backend"
+  },
+  {
+    "name": "Angular",
+    "icon": "angular.svg",
+    "description": "JavaScript framework. Se utiliza TypeScript para escribir el código.",
+    "docs": "https://angular.dev/overview",
+    "projects": [],
+    "courses": [],
+    "stack": "frontend"
   }
 ]
