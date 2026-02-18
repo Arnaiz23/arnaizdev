@@ -5,7 +5,7 @@ export default function Footer() {
 
   return (
     <footer>
-      <h3>&copy; {year} Adrián Arnaiz Fernández.</h3>
+      <h3>{year} Adrián Arnaiz Fernández.</h3>
       <style jsx>{`
         h3 {
           color: #bbb;

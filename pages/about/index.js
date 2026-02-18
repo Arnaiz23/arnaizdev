@@ -60,6 +60,10 @@ export default function AboutMe() {
           <h3>Bio</h3>
           <section className={style.containerBio}>
             <div>
+              <h4>2024 - X</h4>
+              <p>Desarrollador web - FrontEnd Jr.Adv - Globant</p>
+            </div>
+            <div>
               <h4>2022</h4>
               <p>Prácticas del Grado Superior en Secretaligner</p>
             </div>

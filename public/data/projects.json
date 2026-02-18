@@ -1,16 +1,17 @@
 [
   {
     "image": "ikigaipsicologia.webp",
-    "name": "IkigaiPsicologia",
-    "short_description": "Página web oficial sobre el centro psicológico Ikigai Psicología",
-    "description": "Página web oficial sobre el centro psicológico Ikigai Psicología ubicado en Móstoles.",
+    "name": "Ikigai desde AMAE",
+    "short_description": "Página web oficial sobre el centro psicológico Ikigai desde AMAE",
+    "description": "Página web oficial sobre el centro psicológico Ikigai desde AMAE ubicado en Móstoles.",
     "date": "2024",
-    "url": "https://ikigaipsicologia.es",
+    "url": "https://ikigaidesdeamae.es",
     "languages": [
       {
         "name": "Astro",
         "class": "astro"
-      },{
+      },
+      {
         "name": "React",
         "class": "react"
       },
@@ -20,7 +21,7 @@
       }
     ],
     "repositorie": "https://github.com/Arnaiz23/ikigaipsicologia",
-    "images": ["ikigaipsicologia.webp"]
+    "images": ["ikigaidesdeamae.webp"]
   },
   {
     "image": "TuManga.webp",
@@ -248,7 +249,8 @@
       {
         "name": "Astro",
         "class": "astro"
-      },{
+      },
+      {
         "name": "TailwindCSS",
         "class": "tailwind"
       },
